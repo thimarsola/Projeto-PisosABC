@@ -1,0 +1,25 @@
+$primary: #D9895B;
+$neutral: #333333;
+$white: #fff;
+$whatsapp: #2CD366;
+
+$colors: (
+    "primary": (
+        500: $primary,
+        900: #8C593B
+    ),
+    "neutral": (
+        500: $neutral,
+    ),
+    "white":(
+        500: $white
+    ),
+    "gray":(
+        300: #F2F2F2,
+        500: #292929,
+        700: #202020
+    ),
+    "whatsapp":(
+        500: $whatsapp
+    )
+);
