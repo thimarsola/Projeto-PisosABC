@@ -1221,10 +1221,9 @@ body {
 
 .line {
   display: inline-block;
-  margin-top: var(--fs-200);
   line-height: 1 !important;
-  width: 6rem;
-  height: 5px;
+  width: var(--fs-500);
+  height: 4px;
   background: var(--clr-primary-500);
 }
 
