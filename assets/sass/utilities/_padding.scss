@@ -2,14 +2,15 @@
 
 @for $i from 1 through 10{
     .p-#{$i}{
-        padding: calc(var(--fs-100) * #{$i});
+        padding-block: calc(var(--fs-100) * #{$i});
     }
 
     .py-#{$i}{
-        padding: calc(var(--fs-100) * #{$i}) 0;
+        padding-block-start: calc(var(--fs-100) * #{$i});
+        padding-block-end: calc(var(--fs-100) * #{$i});
     }
     .px-#{$i}{
-        padding: 0 calc(var(--fs-100) * #{$i});
+        padding-inline: calc(var(--fs-100) * #{$i});
     }
 
     .pt-#{$i}{
