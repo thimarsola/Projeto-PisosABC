@@ -16,9 +16,12 @@
 <?php get_template_part('template-parts/home/home', 'cta'); ?>
 <!-- end of cta -->
 
-
 <!-- showroom -->
 <?php get_template_part('template-parts/home/home', 'showroom'); ?>
 <!-- end of showroom -->
+
+<!-- doubts -->
+<?php get_template_part('template-parts/home/home', 'doubts'); ?>
+<!-- end of doubts -->
 
 <?php get_footer(); ?>

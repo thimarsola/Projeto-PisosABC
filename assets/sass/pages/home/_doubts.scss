@@ -1,0 +1,11 @@
+@use "../../abstracts" as *;
+
+.doubts{
+    width: 100%;
+    background:{
+        image: url("../images/background-cta-duvidas.jpg");
+        size: cover;
+        position: center;
+        repeat: no-repeat;
+    }
+}

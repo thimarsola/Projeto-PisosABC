@@ -31,7 +31,7 @@
                   
                   <!-- cta -->
                    <div class="about__row__content__cta">
-                       <?= whatsapp(formatPhone(CONTACT["whatsapp"]["number"]["store"]), CONTACT["whatsapp"]["message"]["generic"], 'Vamos conversar?', 'btn btn-primary-500', 'Vamos Vamos conversar?'); ?>
+                       <?= whatsapp(formatPhone(CONTACT["whatsapp"]["number"]["store"]), CONTACT["whatsapp"]["message"]["generic"], 'Vamos conversar?', 'btn btn-primary-500', 'Vamos conversar?'); ?>
                    </div> 
                   <!-- end of cta -->
               </div> 
