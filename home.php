@@ -12,4 +12,8 @@
 <?php get_template_part('template-parts/home/home', 'about'); ?>
 <!-- end of about -->
 
+<!-- cta -->
+<?php get_template_part('template-parts/home/home', 'cta'); ?>
+<!-- end of cta -->
+
 <?php get_footer(); ?>

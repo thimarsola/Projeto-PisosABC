@@ -5,7 +5,7 @@
         margin: calc(var(--fs-100) * #{$i}) 0;
     }
     .mx-#{$i}{
-        margin: 0 calc(var(--fs-100) * #{$i});
+        margin-inline: calc(var(--fs-100) * #{$i});
     }
 
     .mt-#{$i}{
