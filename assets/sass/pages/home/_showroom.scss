@@ -1,0 +1,66 @@
+@use "../../abstracts" as *;
+
+.showroom{
+    &__row{
+        padding-inline: var(--gap);
+        grid-template-columns: repeat(3, 1fr);
+        gap: var(--gap);
+        
+        &__card{
+            height: 30rem;
+            
+            &:hover{
+                img{
+                    transform: scale(.98) rotate(.5deg);
+                    @include transition(all);
+                }
+            }
+            
+            &:nth-child(2){
+                grid-column: 2/3;
+                grid-row: 1/3;
+                height: 100%;
+            }
+
+
+            img{
+                transform-origin: center;
+                transform: initial;
+                @include transition(all);
+            }
+        }
+    }
+    
+    //breakpoint tablet
+    @include mq(md){
+        &__row{
+            &__card{
+                height: 25rem;
+            }
+        }
+    }
+    
+    //breakpoint mobile
+    @include mq(sm){
+        &__row{
+            padding-inline: calc(var(--gap) * 2);
+            grid-template-columns: repeat(2, 1fr);
+            gap: calc(var(--gap) * 2);
+            
+            &__card{
+                height: 25rem;
+
+                &:nth-child(2){
+                    grid-column: initial;
+                    grid-row: initial;
+                    height: 100%;
+                }
+
+                &:nth-child(3){
+                    grid-column: 1/3;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

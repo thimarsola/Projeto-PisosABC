@@ -16,4 +16,9 @@
 <?php get_template_part('template-parts/home/home', 'cta'); ?>
 <!-- end of cta -->
 
+
+<!-- showroom -->
+<?php get_template_part('template-parts/home/home', 'showroom'); ?>
+<!-- end of showroom -->
+
 <?php get_footer(); ?>
