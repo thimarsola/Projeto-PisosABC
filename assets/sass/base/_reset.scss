@@ -121,28 +121,28 @@ textarea {
     font: {
       size: var(--fs-200) !important;
     }
-    color: var(--clr-gray-500);
+    color: var(--text-gray-500);
   }
 
   &:-ms-input-placeholder {
     font: {
       size: var(--fs-200) !important;
     }
-    color: var(--clr-gray-500);
+    color: var(--text-gray-500);
   }
 
   &::-ms-input-placeholder {
     font: {
       size: var(--fs-200) !important;
     }
-    color: var(--clr-gray-500);
+    color: var(--text-gray-500);
   }
 
   &::placeholder {
     font: {
       size: var(--fs-200) !important;
     }
-    color: var(--clr-gray-500);
+    color: var(--text-gray-500);
   }
 
   @include mq(sm){
