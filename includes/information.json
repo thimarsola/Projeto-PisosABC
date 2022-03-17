@@ -1,0 +1,24 @@
+{
+    "information": [
+        {
+            "icon": "truck",
+            "title": "Entrega Rápida",
+            "description": "Grande disponibilidade em estoque para entregas mais rápidas"
+        },
+        {
+            "icon": "location-arrow",
+            "title": "Fácil Localização",
+            "description": "Atendemos toda região do grande ABC, São Paulo e Litoral"
+        },
+        {
+            "icon": "card",
+            "title": "Pagamento Facilitado",
+            "description": "Cartão de crédito em até 10 x principais bandeiras"
+        },
+        {
+            "icon": "certificatealt",
+            "title": "Pós-vendas e Garantia",
+            "description": "Damos todo suporte e garantia em nossos produtos e serviços"
+        }
+    ]
+}

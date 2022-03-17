@@ -2,12 +2,11 @@
 
 @for $i from 1 through 10{
     .p-#{$i}{
-        padding-block: calc(var(--fs-100) * #{$i});
+        padding: calc(var(--fs-100) * #{$i});
     }
 
     .py-#{$i}{
-        padding-block-start: calc(var(--fs-100) * #{$i});
-        padding-block-end: calc(var(--fs-100) * #{$i});
+        padding-block: calc(var(--fs-100) * #{$i});
     }
     .px-#{$i}{
         padding-inline: calc(var(--fs-100) * #{$i});

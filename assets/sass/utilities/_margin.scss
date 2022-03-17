@@ -2,7 +2,8 @@
 
 @for $i from 1 through 10{
     .my-#{$i}{
-        margin: calc(var(--fs-100) * #{$i}) 0;
+        //margin: calc(var(--fs-100) * #{$i}) 0;
+        margin-block: calc(var(--fs-100) * #{$i});
     }
     .mx-#{$i}{
         margin-inline: calc(var(--fs-100) * #{$i});
@@ -23,4 +24,12 @@
     .mr-#{$i}{
         margin-right: calc(var(--fs-100) * #{$i});
     }
+}
+
+.my-auto{
+    margin-block: auto;
+}
+
+.mx-auto{
+    margin-inline: auto;
 }
