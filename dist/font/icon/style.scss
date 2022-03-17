@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?eetuzg');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?eetuzg#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?eetuzg') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?eetuzg') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?eetuzg##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?2tsyxl');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?2tsyxl#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?2tsyxl') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?2tsyxl') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?2tsyxl##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -27,6 +27,11 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-truck {
+  &:before {
+    content: $icon-truck; 
+  }
+}
 .icon-map {
   &:before {
     content: $icon-map; 
@@ -100,11 +105,6 @@ i {
 .icon-testimonial {
   &:before {
     content: $icon-testimonial; 
-  }
-}
-.icon-truck {
-  &:before {
-    content: $icon-truck; 
   }
 }
 .icon-whatsapp {

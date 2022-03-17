@@ -36,7 +36,7 @@
     <meta property="og:locale" content="<?= SITE["locale"]; ?>"/>
     <meta property="og:region" content="Brasil">
     <meta property="og:title" content="<?= SITE["name"] ?>">
-    <meta property="og:image" content="<?= get_template_directory_uri() . '/assets/images/' . SITE["image"]; ?>"/>
+    <meta property="og:image" content="<?= get_template_directory_uri() . '/dist/images/' . SITE["image"]; ?>"/>
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="700">
     <meta property="og:image:height" content="500">
@@ -48,7 +48,7 @@
     <!-- SCHEMA.ORG -->
     <meta itemprop="name" content="<?= SITE["name"] ?>">
     <meta itemprop="description" content="<?= SITE["desc"]; ?>">
-    <meta itemprop="image" content="<?= get_template_directory_uri() . '/assets/images/' . SITE["image"]; ?>"/>
+    <meta itemprop="image" content="<?= get_template_directory_uri() . '/dist/images/' . SITE["image"]; ?>"/>
     <meta itemprop="url" content="<?= (is_home() || is_404() || is_search() ? get_home_url() : get_page_link()); ?>">
 
     <!-- TWITTER -->
@@ -56,7 +56,7 @@
     <meta name="twitter:domain" content="<?= SITE['domain']; ?>"/>
     <meta name="twitter:title" content="<?= SITE["name"] ?>" />
     <meta name="twitter:description" content="<?= SITE["desc"]; ?>"/>
-    <meta name="twitter:image" content="<?= get_template_directory_uri() . '/assets/images/' . SITE["image"]; ?>"/>
+    <meta name="twitter:image" content="<?= get_template_directory_uri() . '/dist/images/' . SITE["image"]; ?>"/>
     <meta name="twitter:url" content="<?= (is_home() || is_404() || is_search() ? get_home_url() : get_page_link()); ?>"/>
 
     <!-- FONT -->

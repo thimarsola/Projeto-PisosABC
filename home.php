@@ -24,4 +24,8 @@
 <?php get_template_part('template-parts/home/home', 'doubts'); ?>
 <!-- end of doubts -->
 
+<!-- information -->
+<?php get_template_part('template-parts/home/home', 'information'); ?>
+<!-- end of information -->
+
 <?php get_footer(); ?>

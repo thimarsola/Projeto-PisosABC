@@ -636,6 +636,10 @@ body {
   gap: calc(var(--gap) * 2);
 }
 
+.no-gap {
+  gap: initial;
+}
+
 .img-fluid {
   max-width: 100%;
   max-height: 100%;
@@ -646,7 +650,7 @@ body {
 }
 
 .my-1 {
-  margin: calc(var(--fs-100) * 1) 0;
+  margin-block: calc(var(--fs-100) * 1);
 }
 
 .mx-1 {
@@ -670,7 +674,7 @@ body {
 }
 
 .my-2 {
-  margin: calc(var(--fs-100) * 2) 0;
+  margin-block: calc(var(--fs-100) * 2);
 }
 
 .mx-2 {
@@ -694,7 +698,7 @@ body {
 }
 
 .my-3 {
-  margin: calc(var(--fs-100) * 3) 0;
+  margin-block: calc(var(--fs-100) * 3);
 }
 
 .mx-3 {
@@ -718,7 +722,7 @@ body {
 }
 
 .my-4 {
-  margin: calc(var(--fs-100) * 4) 0;
+  margin-block: calc(var(--fs-100) * 4);
 }
 
 .mx-4 {
@@ -742,7 +746,7 @@ body {
 }
 
 .my-5 {
-  margin: calc(var(--fs-100) * 5) 0;
+  margin-block: calc(var(--fs-100) * 5);
 }
 
 .mx-5 {
@@ -766,7 +770,7 @@ body {
 }
 
 .my-6 {
-  margin: calc(var(--fs-100) * 6) 0;
+  margin-block: calc(var(--fs-100) * 6);
 }
 
 .mx-6 {
@@ -790,7 +794,7 @@ body {
 }
 
 .my-7 {
-  margin: calc(var(--fs-100) * 7) 0;
+  margin-block: calc(var(--fs-100) * 7);
 }
 
 .mx-7 {
@@ -814,7 +818,7 @@ body {
 }
 
 .my-8 {
-  margin: calc(var(--fs-100) * 8) 0;
+  margin-block: calc(var(--fs-100) * 8);
 }
 
 .mx-8 {
@@ -838,7 +842,7 @@ body {
 }
 
 .my-9 {
-  margin: calc(var(--fs-100) * 9) 0;
+  margin-block: calc(var(--fs-100) * 9);
 }
 
 .mx-9 {
@@ -862,7 +866,7 @@ body {
 }
 
 .my-10 {
-  margin: calc(var(--fs-100) * 10) 0;
+  margin-block: calc(var(--fs-100) * 10);
 }
 
 .mx-10 {
@@ -885,13 +889,20 @@ body {
   margin-right: calc(var(--fs-100) * 10);
 }
 
+.my-auto {
+  margin-block: auto;
+}
+
+.mx-auto {
+  margin-inline: auto;
+}
+
 .p-1 {
-  padding-block: calc(var(--fs-100) * 1);
+  padding: calc(var(--fs-100) * 1);
 }
 
 .py-1 {
-  padding-block-start: calc(var(--fs-100) * 1);
-  padding-block-end: calc(var(--fs-100) * 1);
+  padding-block: calc(var(--fs-100) * 1);
 }
 
 .px-1 {
@@ -915,12 +926,11 @@ body {
 }
 
 .p-2 {
-  padding-block: calc(var(--fs-100) * 2);
+  padding: calc(var(--fs-100) * 2);
 }
 
 .py-2 {
-  padding-block-start: calc(var(--fs-100) * 2);
-  padding-block-end: calc(var(--fs-100) * 2);
+  padding-block: calc(var(--fs-100) * 2);
 }
 
 .px-2 {
@@ -944,12 +954,11 @@ body {
 }
 
 .p-3 {
-  padding-block: calc(var(--fs-100) * 3);
+  padding: calc(var(--fs-100) * 3);
 }
 
 .py-3 {
-  padding-block-start: calc(var(--fs-100) * 3);
-  padding-block-end: calc(var(--fs-100) * 3);
+  padding-block: calc(var(--fs-100) * 3);
 }
 
 .px-3 {
@@ -973,12 +982,11 @@ body {
 }
 
 .p-4 {
-  padding-block: calc(var(--fs-100) * 4);
+  padding: calc(var(--fs-100) * 4);
 }
 
 .py-4 {
-  padding-block-start: calc(var(--fs-100) * 4);
-  padding-block-end: calc(var(--fs-100) * 4);
+  padding-block: calc(var(--fs-100) * 4);
 }
 
 .px-4 {
@@ -1002,12 +1010,11 @@ body {
 }
 
 .p-5 {
-  padding-block: calc(var(--fs-100) * 5);
+  padding: calc(var(--fs-100) * 5);
 }
 
 .py-5 {
-  padding-block-start: calc(var(--fs-100) * 5);
-  padding-block-end: calc(var(--fs-100) * 5);
+  padding-block: calc(var(--fs-100) * 5);
 }
 
 .px-5 {
@@ -1031,12 +1038,11 @@ body {
 }
 
 .p-6 {
-  padding-block: calc(var(--fs-100) * 6);
+  padding: calc(var(--fs-100) * 6);
 }
 
 .py-6 {
-  padding-block-start: calc(var(--fs-100) * 6);
-  padding-block-end: calc(var(--fs-100) * 6);
+  padding-block: calc(var(--fs-100) * 6);
 }
 
 .px-6 {
@@ -1060,12 +1066,11 @@ body {
 }
 
 .p-7 {
-  padding-block: calc(var(--fs-100) * 7);
+  padding: calc(var(--fs-100) * 7);
 }
 
 .py-7 {
-  padding-block-start: calc(var(--fs-100) * 7);
-  padding-block-end: calc(var(--fs-100) * 7);
+  padding-block: calc(var(--fs-100) * 7);
 }
 
 .px-7 {
@@ -1089,12 +1094,11 @@ body {
 }
 
 .p-8 {
-  padding-block: calc(var(--fs-100) * 8);
+  padding: calc(var(--fs-100) * 8);
 }
 
 .py-8 {
-  padding-block-start: calc(var(--fs-100) * 8);
-  padding-block-end: calc(var(--fs-100) * 8);
+  padding-block: calc(var(--fs-100) * 8);
 }
 
 .px-8 {
@@ -1118,12 +1122,11 @@ body {
 }
 
 .p-9 {
-  padding-block: calc(var(--fs-100) * 9);
+  padding: calc(var(--fs-100) * 9);
 }
 
 .py-9 {
-  padding-block-start: calc(var(--fs-100) * 9);
-  padding-block-end: calc(var(--fs-100) * 9);
+  padding-block: calc(var(--fs-100) * 9);
 }
 
 .px-9 {
@@ -1147,12 +1150,11 @@ body {
 }
 
 .p-10 {
-  padding-block: calc(var(--fs-100) * 10);
+  padding: calc(var(--fs-100) * 10);
 }
 
 .py-10 {
-  padding-block-start: calc(var(--fs-100) * 10);
-  padding-block-end: calc(var(--fs-100) * 10);
+  padding-block: calc(var(--fs-100) * 10);
 }
 
 .px-10 {
