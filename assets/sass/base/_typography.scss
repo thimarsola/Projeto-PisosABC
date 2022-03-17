@@ -4,7 +4,7 @@
 
 html {
     font-size: var(--font-base) !important;
-    color: var(--clr-neutral-500) !important;
+    color: var(--text-neutral-500) !important;
 }
 
 body {
@@ -18,7 +18,7 @@ h4 {
     font-size: inherit;
     font-weight: var(--bold);
     line-height: 1.1;
-    color: var(--clr-neutral-500);
+    color: inherit;
 }
 
 strong,
@@ -45,5 +45,5 @@ address {
 input,
 textarea{
     font: var(--regular);
-    color: var(--clr-neutral-500) !important;
+    color: var(--text-neutral-500) !important;
 }

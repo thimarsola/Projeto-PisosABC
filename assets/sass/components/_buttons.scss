@@ -13,7 +13,7 @@
     border-radius: var(--fs-100);
 
     font: {
-        weight: 700;
+        weight: 700 !important;
         size: var(--fs-200);
     }
 
@@ -47,11 +47,10 @@
         }@else {
             .btn-#{$color}-#{$prop} {
                 background-color: $value;
-                color: var(--clr-dark-blue-500);
+                color: var(--clr-white-500);
                 @include transition(all);
 
                 &:hover {
-                    color: var(--clr-white-500);
                     background-color: darken($value, 10%);
                     @include transition(all);
                 }

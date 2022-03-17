@@ -16,9 +16,9 @@
             <div class="header__content__navbar">
                 <nav class="header__content__navbar__menu">
                     <!-- header -->
-                    <header class="header__content__navbar__menu__header d-none">
+                    <div class="header__content__navbar__menu__header d-none">
                         <h2>Menu de navegação</h2>
-                    </header>
+                    </div>
                     <!-- end of header -->
                     <?php wp_nav_menu(array('theme_location' => 'menu')); ?>
                 </nav>
