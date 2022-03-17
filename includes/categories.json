@@ -1,0 +1,24 @@
+{
+    "categories": [
+        {
+            "image": "imagem-card-pisos-laminados",
+            "title": "Pisos Laminados"
+        },
+        {
+            "image": "imagem-card-pisos-vinilicos",
+            "title": "Pisos Vinílicos"
+        },
+        {
+            "image": "imagem-card-rodapes",
+            "title": "Rodapés"
+        },
+        {
+            "image": "imagem-card-persianas",
+            "title": "Persianas"
+        },
+        {
+            "image": "imagem-card-papeis-de-parede",
+            "title": "Papéis de Parede"
+        }
+    ]
+}

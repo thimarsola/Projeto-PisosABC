@@ -28,8 +28,8 @@
     <meta name="revisit-after" content="7 days">
 
     <meta name="author" content="<?= SITE["name"]; ?> - <?= SITE["domain"]; ?>">
-    <link rel="shortcut icon" href="<?= image('favicon.svg', 'svg'); ?>">
-    <link rel="apple-touch-icon" href="<?= image('favicon.svg', 'svg'); ?>">
+    <link rel="shortcut icon" href="<?= image('favicon.png'); ?>">
+    <link rel="apple-touch-icon" href="<?= image('favicon.png'); ?>">
     <meta name="theme-color" content="#ffffff">
 
     <!-- OPEN GRAPH -->

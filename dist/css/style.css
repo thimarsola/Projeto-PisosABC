@@ -540,43 +540,55 @@ body {
 }
 
 .f-1 {
-  font-size: calc(var(--fs-100) * 1);
+  font-size: calc(var(--fs-100) * 1) !important;
 }
 
 .f-2 {
-  font-size: calc(var(--fs-100) * 2);
+  font-size: calc(var(--fs-100) * 2) !important;
 }
 
 .f-3 {
-  font-size: calc(var(--fs-100) * 3);
+  font-size: calc(var(--fs-100) * 3) !important;
 }
 
 .f-4 {
-  font-size: calc(var(--fs-100) * 4);
+  font-size: calc(var(--fs-100) * 4) !important;
 }
 
 .f-5 {
-  font-size: calc(var(--fs-100) * 5);
+  font-size: calc(var(--fs-100) * 5) !important;
 }
 
 .f-6 {
-  font-size: calc(var(--fs-100) * 6);
+  font-size: calc(var(--fs-100) * 6) !important;
 }
 
 .f-7 {
-  font-size: calc(var(--fs-100) * 7);
+  font-size: calc(var(--fs-100) * 7) !important;
 }
 
 .f-8 {
-  font-size: calc(var(--fs-100) * 8);
+  font-size: calc(var(--fs-100) * 8) !important;
 }
 
 .f-9 {
-  font-size: calc(var(--fs-100) * 9);
+  font-size: calc(var(--fs-100) * 9) !important;
 }
 
 .f-10 {
-  font-size: calc(var(--fs-100) * 10);
+  font-size: calc(var(--fs-100) * 10) !important;
+}
+
+.f-regular {
+  font-weight: var(--regular) !important;
+}
+
+.f-medium {
+  font-weight: var(--medium) !important;
+}
+
+.f-bold {
+  font-weight: var(--bold) !important;
 }
 
 .l-small {
@@ -2118,4 +2130,48 @@ img.mfp-img {
 }
 .hero__content__body p {
   font-size: 1.8rem;
+}
+
+.products {
+  width: 100%;
+  background-image: url("../images/background-products.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.products__row__header {
+  align-self: flex-end;
+}
+.products__row__card {
+  position: relative;
+  transform-origin: center;
+}
+.products__row__card:hover img {
+  transform: scale(0.98) rotate(0.5deg);
+  transition: all 300ms ease-in-out;
+}
+.products__row__card:hover h3 {
+  color: var(--clr-primary-500);
+}
+.products__row__card a img {
+  transform: initial;
+  transition: all 300ms ease-in-out;
+}
+.products__row__card a h3 {
+  position: absolute;
+  left: 2rem;
+  bottom: 2rem;
+  line-height: 1 !important;
+  color: var(--clr-white-500);
+  transition: all 300ms ease-in-out;
+}
+@media only screen and (max-width: 576px) {
+  .products__row__card {
+    height: 30rem;
+  }
+  .products__row__card a h3 {
+    left: 2rem;
+    bottom: 3rem;
+    font-size: var(--fs-500);
+  }
 }

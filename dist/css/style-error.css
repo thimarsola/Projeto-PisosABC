@@ -558,43 +558,55 @@ body {
 }
 
 .f-1 {
-  font-size: calc(var(--fs-100) * 1);
+  font-size: calc(var(--fs-100) * 1) !important;
 }
 
 .f-2 {
-  font-size: calc(var(--fs-100) * 2);
+  font-size: calc(var(--fs-100) * 2) !important;
 }
 
 .f-3 {
-  font-size: calc(var(--fs-100) * 3);
+  font-size: calc(var(--fs-100) * 3) !important;
 }
 
 .f-4 {
-  font-size: calc(var(--fs-100) * 4);
+  font-size: calc(var(--fs-100) * 4) !important;
 }
 
 .f-5 {
-  font-size: calc(var(--fs-100) * 5);
+  font-size: calc(var(--fs-100) * 5) !important;
 }
 
 .f-6 {
-  font-size: calc(var(--fs-100) * 6);
+  font-size: calc(var(--fs-100) * 6) !important;
 }
 
 .f-7 {
-  font-size: calc(var(--fs-100) * 7);
+  font-size: calc(var(--fs-100) * 7) !important;
 }
 
 .f-8 {
-  font-size: calc(var(--fs-100) * 8);
+  font-size: calc(var(--fs-100) * 8) !important;
 }
 
 .f-9 {
-  font-size: calc(var(--fs-100) * 9);
+  font-size: calc(var(--fs-100) * 9) !important;
 }
 
 .f-10 {
-  font-size: calc(var(--fs-100) * 10);
+  font-size: calc(var(--fs-100) * 10) !important;
+}
+
+.f-regular {
+  font-weight: var(--regular) !important;
+}
+
+.f-medium {
+  font-weight: var(--medium) !important;
+}
+
+.f-bold {
+  font-weight: var(--bold) !important;
 }
 
 .l-small {
