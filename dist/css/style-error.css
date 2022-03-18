@@ -116,7 +116,8 @@ i {
   --clr-primary-900: #8C593B;
   --clr-neutral-500: #333333;
   --clr-white-500: #fff;
-  --clr-gray-300: #F2F2F2;
+  --clr-gray-100: #F2F2F2;
+  --clr-gray-300: #ccc;
   --clr-gray-500: #292929;
   --clr-gray-700: #202020;
   --clr-whatsapp-500: #2CD366;
@@ -124,7 +125,8 @@ i {
   --text-primary-900: #8C593B;
   --text-neutral-500: #333333;
   --text-white-500: #fff;
-  --text-gray-300: #F2F2F2;
+  --text-gray-100: #F2F2F2;
+  --text-gray-300: #ccc;
   --text-gray-500: #292929;
   --text-gray-700: #202020;
   --text-whatsapp-500: #2CD366;
@@ -396,6 +398,10 @@ body {
   background-color: var(--clr-white-500) !important;
 }
 
+.bg-gray-100 {
+  background-color: var(--clr-gray-100) !important;
+}
+
 .bg-gray-300 {
   background-color: var(--clr-gray-300) !important;
 }
@@ -426,6 +432,10 @@ body {
 
 .text-white-500 {
   color: var(--clr-white-500) !important;
+}
+
+.text-gray-100 {
+  color: var(--clr-gray-100) !important;
 }
 
 .text-gray-300 {
@@ -1305,13 +1315,23 @@ body {
   transition: all 300ms ease-in-out;
 }
 
-.btn-gray-300 {
+.btn-gray-100 {
   background-color: #F2F2F2;
   color: var(--clr-white-500);
   transition: all 300ms ease-in-out;
 }
-.btn-gray-300:hover {
+.btn-gray-100:hover {
   background-color: #d9d9d9;
+  transition: all 300ms ease-in-out;
+}
+
+.btn-gray-300 {
+  background-color: #ccc;
+  color: var(--clr-white-500);
+  transition: all 300ms ease-in-out;
+}
+.btn-gray-300:hover {
+  background-color: #b3b3b3;
   transition: all 300ms ease-in-out;
 }
 
@@ -1381,12 +1401,21 @@ body {
   transition: all 300ms ease-in-out;
 }
 
-.link-gray-300 {
+.link-gray-100 {
   color: #F2F2F2;
   transition: all 300ms ease-in-out;
 }
-.link-gray-300:hover, .link-gray-300:focus {
+.link-gray-100:hover, .link-gray-100:focus {
   color: #d9d9d9;
+  transition: all 300ms ease-in-out;
+}
+
+.link-gray-300 {
+  color: #ccc;
+  transition: all 300ms ease-in-out;
+}
+.link-gray-300:hover, .link-gray-300:focus {
+  color: #b3b3b3;
   transition: all 300ms ease-in-out;
 }
 
