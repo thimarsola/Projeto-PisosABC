@@ -1,0 +1,26 @@
+{
+    "doubts": [
+        {
+            "doubt": "O que é piso laminado?",
+            "answer": [
+                "É um piso constituído de lamina de madeira com largura e comprimentos variados, dependendo da linha.",
+                "É de fácil instalação e limpeza. è indicado para ambientes internos residenciais e comerciais, pode ser colocado sobre o contrapiso, cerâmicas e piso de madeira."
+            ]
+        },
+        {
+            "doubt": "O que é piso vinílico?",
+            "answer": [
+                "É um piso composto de pvc (borracha).",
+                "É indicado para ambientes internos, salas, dormitórios, cozinha, escritórios, academias, etc.",
+                "É funcional como isolante térmico e acústico, pode ser em réguas ou placas.",
+                "Pode ser colocado sobre cerâmicas ou contrapiso. tem que ser feito um PVA ou autonivelante antes da colocação."
+            ]
+        },
+        {
+            "doubt": "Devo comprar laminado ou vinílico?",
+            "answer": [
+                "Os dois são sinônimos de requinte e beleza, é ideal pra deixar seu ambiente elegante e aconchegante.  A escolha é sua!"
+            ]
+        }
+    ]
+}
