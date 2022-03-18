@@ -21,11 +21,15 @@
 <!-- end of showroom -->
 
 <!-- doubts -->
-<?php get_template_part('template-parts/home/home', 'doubts'); ?>
+<?php get_template_part('template-parts/home/home', 'doubtsCta'); ?>
 <!-- end of doubts -->
 
 <!-- information -->
 <?php get_template_part('template-parts/home/home', 'information'); ?>
 <!-- end of information -->
+
+<!-- doubts -->
+<?php get_template_part('template-parts/home/home', 'doubts'); ?>
+<!-- end of doubts -->
 
 <?php get_footer(); ?>

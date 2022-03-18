@@ -1,11 +1,84 @@
 @use "../../abstracts" as *;
 
 .doubts{
-    width: 100%;
-    background:{
-        image: url("../images/background-cta-duvidas.jpg");
-        size: cover;
-        position: center;
-        repeat: no-repeat;
+    &__row{
+        &__container{
+            max-width: 60rem;
+            width: 100%;
+            margin-left: auto;
+            margin-right: -8rem;
+            z-index: 1;
+
+            &__content{
+                &__wrapper{
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 1rem;
+
+                    &__card{
+                        flex-basis: 100%;
+
+                        &__header{
+                            cursor: pointer;
+
+                            span{
+                                transform-origin: center;
+                                transform: rotate(0deg);
+                                @include transition(all);
+                            }
+                        }
+
+                        &__body{
+                            display: none;
+
+                            p{
+                                &:not(:last-child){
+                                    margin-bottom: var(--fs-200);
+                                }
+                            }
+                        }
+
+                        &--open{
+                            span{
+                                transform: rotate(45deg);
+                                @include transition(all);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+        &__image{
+            background:{
+                image: url("../images/imagem-duvidas-frequentes.jpg");
+                size: cover;
+                position: center;
+                repeat: no-repeat;
+            }
+        }
+    }
+    
+    //breakpoint tablet
+    @include mq(md){
+        &__row{
+            grid-template-columns: 1.5fr 1fr;
+        }
+    }
+    
+    //breakpoint mobile
+    @include mq(sm){
+        &__row{
+            grid-template-columns: 1fr;
+            
+            &__container{
+                padding: 0;
+                margin-right: 0;
+            }
+            
+            &__image{
+                display: none;
+            }
+        }
     }
 }
