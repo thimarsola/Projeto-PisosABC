@@ -1688,3 +1688,91 @@ body {
     gap: var(--fs-100);
   }
 }
+
+.page__hero {
+  height: 35rem;
+}
+
+.page__categories__row__card {
+  position: relative;
+  transform-origin: center;
+}
+.page__categories__row__card:hover img {
+  transform: scale(0.98) rotate(0.5deg);
+  transition: all 300ms ease-in-out;
+}
+.page__categories__row__card:hover h3 {
+  color: var(--clr-primary-500);
+}
+.page__categories__row__card a img {
+  transform: initial;
+  transition: all 300ms ease-in-out;
+}
+.page__categories__row__card a h3 {
+  position: absolute;
+  left: 2rem;
+  bottom: 2rem;
+  line-height: 1 !important;
+  color: var(--clr-white-500);
+  transition: all 300ms ease-in-out;
+}
+@media only screen and (max-width: 576px) {
+  .page__categories__header h2 {
+    font-size: var(--fs-600) !important;
+  }
+  .page__categories__row__card {
+    height: 30rem;
+  }
+  .page__categories__row__card a h3 {
+    left: 2rem;
+    bottom: 3rem;
+    font-size: var(--fs-500);
+  }
+}
+
+.budget {
+  width: 100%;
+  background-image: url("../images/background-cta-duvidas.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.information__row__content__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: calc(var(--gap) * 4) calc(var(--gap) * 2);
+}
+.information__row__content__container__card__header h3 {
+  font-size: 1.8rem;
+}
+@media only screen and (max-width: 1024px) {
+  .information__row {
+    grid-template-columns: 1fr 1.5fr;
+  }
+  .information__row__image img {
+    object-position: center left;
+  }
+  .information__row__content {
+    padding: var(--fs-1000) var(--fs-600);
+  }
+}
+@media only screen and (max-width: 768px) {
+  .information__row__content {
+    padding: var(--fs-800) var(--fs-500);
+  }
+}
+@media only screen and (max-width: 576px) {
+  .information__row {
+    grid-template-columns: 1fr;
+  }
+  .information__row__image {
+    display: none;
+  }
+  .information__row__content {
+    padding: 0 calc(var(--gap) * 2);
+  }
+  .information__row__content__container {
+    gap: calc(var(--gap) * 3) calc(var(--gap) * 2);
+  }
+}
