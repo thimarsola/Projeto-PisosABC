@@ -32,4 +32,8 @@
 <?php get_template_part('template-parts/home/home', 'doubts'); ?>
 <!-- end of doubts -->
 
+<!-- testimonials -->
+<?php get_template_part('template-parts/home/home', 'testimonials'); ?>
+<!-- end of testimonials -->
+
 <?php get_footer(); ?>

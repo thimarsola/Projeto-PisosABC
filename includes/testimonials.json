@@ -1,5 +1,24 @@
 {
     "testimonials": [
-        
+        {
+            "name": "Marcia Donati",
+            "testimonial": "Impressionante como tudo correu bem!! Atendimento excelente pelo WhatsApp e pessoalmente. Fui a loja para avaliar o material e até mesmo escolher a cor. Fui muito bem recepcionada até pela FOFA DA PANDORA... A equipe teve a sensibilidade em fazer por partes, pois no meu caso o apto estava em uso.. EQUIPE educada, alto astral, organizada e LIMPAAAAA... O material lindo... Eles atenderam ao meu pedido por dias específicos, pois não estaria em determinados dias em casa... Enfim.. Nota mil... Muito obrigada por todo atendimento de qualidade...."
+        },
+        {
+            "name": "José Carlos Mazzego",
+            "testimonial": "Conheci a loja por acaso na internet, so tinha tempo de pesquisar aos finais de semana e o sr adauto me deu todo o suporte no whats em um domingo e feriado, o que foi determinante para que eu continuasse a negociacao. Escolhi o modelo por uma foto de uma instalacao deles e ficou certinho do jeito que eu queria. O serviço foi feito pela equipe do instalador marcio e ficou otimo.  O piso escolhido foi o papoula e combinou bastante com a parede cinza cromio"
+        },
+        {
+            "name": "Cátia Maria da Silva",
+            "testimonial": "Adorei a instalação do meu piso laminado, super rápida. Sr. Adauto muito prestativo em esclarecer minhas dúvidas, assim como os instaladores da empresa. Fizeram um serviço super limpo, chegaram na hora marcada e finalizaram até antes do prazo acordado. Recomendo essa empresa sem dúvida."
+        },
+        {
+            "name": "Josiane Leite Joveli",
+            "testimonial": "Ótimo atendimento do Adauto, pagamento facilitado e a colocação pelo profissional Willian ficou maravilhoso! Super indico a loja e desejo só sucesso!"
+        },
+        {
+            "name": "Nádia Machado",
+            "testimonial": "Ótimo atendimento, ótimo preço e excelente instalação. Ficamos extremamente felizes com o resultado e recomendo a loja. O Adauto, vendedor que nos atendeu, deu várias dicas e foi super compreensível com nossos prazos. Não tivemos nenhuma dor de cabeça. Agradecemos toda a atenção."
+        }
     ]
 }

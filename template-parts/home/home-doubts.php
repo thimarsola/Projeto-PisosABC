@@ -6,7 +6,7 @@
         <div class="doubts__row__container py-10">
 
             <!-- content -->
-            <div class="doubts__row__container__content bg-gray-300 px-5 py-10">
+            <div class="doubts__row__container__content bg-gray-100 px-5 py-10">
 
                 <!-- header -->
                 <header class="doubts__row__container__content__header">

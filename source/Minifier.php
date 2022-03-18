@@ -24,6 +24,8 @@ $homeJs->add(dirname(__DIR__, 1) . "/assets/js/theme/functions/scroll.js");
 $homeJs->add(dirname(__DIR__, 1) . "/assets/js/theme/functions/gallery.js");
 $homeJs->add(dirname(__DIR__, 1) . "/assets/js/vendors/jquery.magnific-popup.js");
 $homeJs->add(dirname(__DIR__, 1) . "/assets/js/theme/functions/toggle.js");
+$homeJs->add(dirname(__DIR__, 1) . "/assets/js/vendors/owl.carousel.min.js");
+$homeJs->add(dirname(__DIR__, 1) . "/assets/js/theme/functions/carousel.js");
 $homeJs->minify(dirname(__DIR__, 1) . "/dist/js/script-home.min.js");
 
 /**
