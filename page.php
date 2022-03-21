@@ -12,6 +12,12 @@
     <!-- end of categories -->
 <?php endif; ?>
 
+<?php if(!is_page(['Pisos Laminados', 'Pisos Vinílicos', 'Rodapés', 'Contato'])): ?>
+    <!-- products -->
+    <?php get_template_part('template-parts/pages/page', 'products'); ?>
+    <!-- end of products -->
+<?php endif; ?>
+
 <?php if(!is_page('Contato')): ?>
     <!-- budget -->
     <?php get_template_part('template-parts/pages/page', 'budget'); ?>

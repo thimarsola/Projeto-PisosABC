@@ -1,0 +1,55 @@
+{
+    "durafloor": [
+        {
+            "title": "Linha Durafloor Urban",
+            "thickness": "2mm",
+            "description": [
+                "Tradicional e contemporânea, a Linha Urban une todas as tribos. Sua versatilidade serve tanto para ambientes mais rústicos quanto para os mais modernos. Isso tudo com originalidade e um ótimo custo/benefício. Você pode ter vários estilos, a linha Urban Durafloor se encaixa em um deles."
+            ],
+            "lines": [
+                "Turim",
+                "Tulum",
+                "Shanghai",
+                "Parma",
+                "Osaka",
+                "Cingapura",
+                "Cartagena",
+                "Taos",
+                "Santiago",
+                "Valência",
+                "Sinai"
+            ]
+        },
+        {
+            "title": "Linha Durafloor City",
+            "thickness": "3mm",
+            "description": [
+                "Já pensou em andar descalço nas grandes cidades do mundo? Aqui você encontra a durabilidade das calçadas com todo o conforto deste piso Durafloor que é instalado com cola. Leve a beleza de Madrid ou a história de Petra para sua casa ou escritório com a linha City."
+            ],
+            "lines": [
+                "Bari",
+                "Chicago",
+                "Madrid",
+                "Oslo",
+                "Petra",
+                "Sevilha",
+                "Toronto",
+                "Berati",
+                "Barbados"
+            ]
+        },
+        {
+            "title": "Linha Durafloor Art",
+            "thickness": "3mm",
+            "description": [
+                "Os clássicos duram para sempre. A linha Art leva a beleza dos pisos Durafloor para ambientes residenciais e comerciais. Durável, de fácil limpeza e instalação à base de cola trazem um ótimo custo benefício para o seu ambiente."
+            ],
+            "lines": [
+                "Atenas",
+                "Istambul",
+                "Kamari",
+                "Mônaco"
+            ]
+        }
+    ]
+}

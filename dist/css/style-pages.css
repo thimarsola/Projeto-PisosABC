@@ -1738,6 +1738,14 @@ body {
   background-repeat: no-repeat;
 }
 
+.page__products__row {
+  grid-template-columns: 1fr;
+  gap: var(--fs-1000);
+}
+.page__products__row__card__body__line__header h3 {
+  font-size: 2rem;
+}
+
 .information__row__content__container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

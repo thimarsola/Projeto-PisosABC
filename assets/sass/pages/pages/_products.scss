@@ -1,0 +1,22 @@
+@use "../../abstracts" as *;
+
+.page{
+    &__products{
+        &__row{
+            grid-template-columns: 1fr;
+            gap: var(--fs-1000);
+            
+            &__card{
+                &__body{
+                    &__line{
+                        &__header{
+                            h3{
+                                font-size: 2rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
