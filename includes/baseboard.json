@@ -1,0 +1,239 @@
+{
+    "durafloor": [
+        {
+            "title": "Linha Durafloor Easy",
+            "thickness": null,
+            "description": [
+                "Disponível em duas alturas, o Rodapé Easy tem cantos retos, um friso na parte superior e podem ser instalados sobre qualquer tipo de piso."
+            ],
+            "lines": [
+                "Y-01-80",
+                "Y-01-120"
+            ]
+        },
+        {
+            "title": "Linha Durafloor Essencial",
+            "thickness": null,
+            "description": [
+                "A Linha Essencial traz uma beleza sutil aos ambientes e variedade de desenhos e alturas. Com cantos retos e frisos de destaque, é o que existe de mais moderno em rodapés."
+            ],
+            "lines": [
+                "E-01-150",
+                "E-01-200",
+                "E-02-150",
+                "E-03-100",
+                "E-03-150",
+                "E-05-50",
+                "E-05-100",
+                "E-05-150",
+                "E-05-200",
+                "E-06-100",
+                "E-06-150",
+                "E-06-200"
+            ]
+        },
+        {
+            "title": "Linha Durafloor Maxx",
+            "thickness": null,
+            "description": [
+                "Fabricado com Poliestireno, o rodapé Durafloor da linha Maxx oferece o que há de melhor em tecnologia e qualidade. Além de 100% sustentável, é à prova d’água. Moderno e funcional, pode ser utilizado com qualquer tipo de piso, inclusive porcelanato, e seu design permite embutir e esconder a fiação, valorizando qualquer tipo de espaço."
+            ],
+            "lines": [
+                "V-01-60",
+                "M-01-70",
+                "M-01-100",
+                "M-01-120",
+                "M-01-150",
+                "M-01-200",
+                "M-02-70",
+                "M-02-100",
+                "M-02-150",
+                "M-02-200",
+                "M-03-60",
+                "M-03-100",
+                "M-03-150",
+                "M-04-100",
+                "M-04-150",
+                "M-05-150",
+                "M-05-200"
+            ]
+        },
+        {
+            "title": "Linha Durafloor Rodapé Fixo",
+            "thickness": null,
+            "description": [
+                "Utilize o nosso Rodapé Fixo para compor a beleza do seu piso. Exclusivo para os padrões da linha New Way."
+            ],
+            "lines": [
+                "Rodapé Fixo 6mm - cor do piso ou branco"
+            ]
+        },
+        {
+            "title": "Linha Durafloor Clean",
+            "thickness": null,
+            "description": [
+                "Com estrutura reta e canto arredondado, o Rodapé Clean Durafloor compõe o piso trazendo mais beleza aos detalhes. Também permite esconder os fios, garantindo melhor organização."
+            ],
+            "lines": [
+                "Rodapé Fixo 8mm - cor do piso ou branco"
+            ]
+        },
+        {
+            "title": "Linha Durafloor Perfis",
+            "thickness": null,
+            "description": [
+                "Linha de acessórios e perfis para melhor acabamento no piso da sua casa."
+            ],
+            "lines": [
+                "Perfil T",
+                "Perfil Escada Frontal MDF",
+                "Perfil Redutor"
+            ]
+        }
+    ],
+    "eucafloor": [
+        {
+            "title": "Linha Eucafloor Estilo",
+            "thickness": null,
+            "description": [
+                "Linha Estilo de Rodapés da Eucafloor para pisos laminados e vinílicos."
+            ],
+            "lines": [
+                "Rodapé 50mm",
+                "Cordão",
+                "Rodapé 70mm",
+                "Rodapé 70mm Branco"
+            ]
+        },
+        {
+            "title": "Linha Eucafloor Aqua",
+            "thickness": null,
+            "description": [
+                "Praticidade e Beleza Que Valorizam Todos os Tipos de Pisos e Ambientes. Rodapés a prova d’água, que combinam com diversos tipos de revestimentos como os pisos laminados e vinílicos Eucafloor, pisos cerâmicos, porcelanato, carpete têxtil, madeira maciça e cimento queimado."
+            ],
+            "lines": [
+                "R9 70mm com friso",
+                "R7 Black 150mm com friso",
+                "R7 150mm com friso",
+                "R5 150mm sem friso",
+                "R2 70mm sem friso"
+            ]
+        },
+        {
+            "title": "Linha Eucafloor Composit",
+            "thickness": null,
+            "description": [
+                "Linha Composit de Rodapés da Eucafloor para pisos laminados e vinílicos."
+            ],
+            "lines": [
+                "Rodapé Composit 200mm com friso",
+                "Rodapé Composit 160mm com friso",
+                "Rodapé Composit 80mm"
+            ]
+        },
+        {
+            "title": "Linha Eucafloor Tecno",
+            "thickness": null,
+            "description": [
+                "Linha Tecno de Rodapés da Eucafloor para pisos laminados e vinílicos."
+            ],
+            "lines": [
+                "Frontal de Escada",
+                "Perfil Redutor",
+                "Perfil T",
+                "Perfil Base"
+            ]
+        }
+    ],
+    "madebene": [
+        {
+            "title": "Linha Madebene Moderna Branca",
+            "thickness": null,
+            "description": [
+                "Linha Moderna Branca de Rodapés da Madebene para pisos laminados e vinílicos."
+            ],
+            "lines": [
+                "Rodapé 50mm",
+                "Rodapé 70mm",
+                "Rodapé 80mm",
+                "Rodapé 100mm",
+                "Rodapé 120mm",
+                "Rodapé 150mm",
+                "Rodapé 200mm"
+            ]
+        },
+        {
+            "title": "Linha Madebene Moderna Black",
+            "thickness": null,
+            "description": [
+                "Linha Moderna Black de Rodapés da Madebene para pisos laminados e vinílicos."
+            ],
+            "lines": [
+                "Rodapé 70mm",
+                "Rodapé 100mm",
+                "Rodapé 150mm"
+            ]
+        }
+    ],
+    "santa-luzia": [
+        {
+            "title": "Linha Santa Luzia Coleção LEV",
+            "thickness": null,
+            "description": [
+                "A Coleção LEV é desenvolvida com tecnologia de alta qualidade, traz as melhores características do mercado, em um produto muito mais leve. Com design inovador E  diferenciado. E para quem ama um toque discreto, é encontrado ainda em uma espessura menor, deixando a estética do seu ambiente moderna e funcional. Feito de matéria-prima reciclada e 100% reciclável, leve de fácil instalação, não necessita de bucha."
+            ],
+            "lines": [
+                "Rodapé 50mm",
+                "Rodapé 50mm com friso",
+                "Rodapé 70mm",
+                "Rodapé 70mm com friso",
+                "Rodapé 100mm",
+                "Rodapé 100mm com friso",
+                "Rodapé 150mm",
+                "Rodapé 150mm com friso"
+            ]
+        },
+        {
+            "title": "Linha Santa Luzia Moderna",
+            "thickness": null,
+            "description": [
+                "A Moderna é desenvolvida com tecnologia de alta qualidade, traz as melhores características do mercado, em um produto muito mais leve.",
+                "Com design inovador E  diferenciado. E para quem ama um toque discreto, é encontrado ainda em uma espessura menor, deixando a estética do seu ambiente moderna e funcional. Feito de matéria-prima reciclada e 100% reciclável, leve de fácil instalação."
+            ],
+            "lines": [
+                "Rodapé 30mm - M01",
+                "Rodapé 30mm - M02",
+                "Rodapé 50mm - M01",
+                "Rodapé 50mm - M02",
+                "Rodapé 50mm - M03",
+                "Rodapé 50mm - M04",
+                "Rodapé 65mm - M01",
+                "Rodapé 70mm - M01",
+                "Rodapé 70mm - M02",
+                "Rodapé 70mm - M03",
+                "Rodapé 70mm - M04",
+                "Rodapé 80mm - M01",
+                "Rodapé 100mm - M01",
+                "Rodapé 100mm - M02",
+                "Rodapé 100mm - M03",
+                "Rodapé 100mm - M04",
+                "Rodapé 100mm - M05",
+                "Rodapé 100mm - M06",
+                "Rodapé 100mm - M07",
+                "Rodapé 100mm - M08",
+                "Rodapé 100mm - M09",
+                "Rodapé 120mm - M01",
+                "Rodapé 150mm - M01",
+                "Rodapé 150mm - M02",
+                "Rodapé 150mm - M03",
+                "Rodapé 150mm - M04",
+                "Rodapé 150mm - M05",
+                "Rodapé 150mm - M06",
+                "Rodapé 150mm - M07",
+                "Rodapé 200mm - M01",
+                "Rodapé 200mm - M02",
+                "Rodapé 250mm - M01"
+            ]
+        }
+    ]
+}

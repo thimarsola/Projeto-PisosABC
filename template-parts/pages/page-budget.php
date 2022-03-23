@@ -11,7 +11,11 @@
          <div class="budget__content">
              <p class="mb-7">Clique no botão abaixo e solicite seu orçamento com nossa equipe!</p>
 
-             <?= whatsapp(formatPhone(CONTACT["whatsapp"]["number"]["store"]), CONTACT["whatsapp"]["message"]["budget"] . ' para ' . get_the_title(), 'Quero um orçamento', 'btn btn-primary-500', 'Solicite já o seu orçamento?'); ?>
+             <?php
+             $number = (is_page(['Persianas','Papel de Parede']) ? CONTACT["whatsapp"]["number"]["paper"] : CONTACT["whatsapp"]["number"]["store"]);
+             
+             echo whatsapp(formatPhone($number), CONTACT["whatsapp"]["message"]["budget"] . ' para ' . get_the_title(), 'Quero um orçamento', 'btn btn-primary-500', 'Solicite já o seu orçamento?'); 
+             ?>
          </div> 
         <!-- end of content -->
         

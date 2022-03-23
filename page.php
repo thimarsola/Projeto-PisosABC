@@ -12,6 +12,18 @@
     <!-- end of categories -->
 <?php endif; ?>
 
+<?php if(!is_page(['Pisos Laminados', 'Pisos Vinílicos', 'Rodapés', 'Papel de Parede', 'Contato'])): ?>
+    <!-- products -->
+    <?php get_template_part('template-parts/pages/page', 'products'); ?>
+    <!-- end of products -->
+<?php endif; ?>
+
+<?php if(is_page('Papel de Parede')): ?>
+    <!-- content -->
+    <?php get_template_part('template-parts/pages/page', 'content'); ?>
+    <!-- end of content -->
+<?php endif; ?>
+
 <?php if(!is_page('Contato')): ?>
     <!-- budget -->
     <?php get_template_part('template-parts/pages/page', 'budget'); ?>
