@@ -16,6 +16,38 @@
                 $jsonProducts = file_get_contents(__DIR__ . '/../../includes/vinyl.json');
                 $productsList = json_decode($jsonProducts, true);
                 $products = $productsList['durafloor'];
+            }elseif (is_page('Piso Vinílico Eucafloor')){
+                $jsonProducts = file_get_contents(__DIR__ . '/../../includes/vinyl.json');
+                $productsList = json_decode($jsonProducts, true);
+                $products = $productsList['eucafloor'];
+            }elseif (is_page('Piso Vinílico Tarkett')){
+                $jsonProducts = file_get_contents(__DIR__ . '/../../includes/vinyl.json');
+                $productsList = json_decode($jsonProducts, true);
+                $products = $productsList['tarkett'];
+            }elseif (is_page('Rodapé Durafloor')){
+                $jsonProducts = file_get_contents(__DIR__ . '/../../includes/baseboard.json');
+                $productsList = json_decode($jsonProducts, true);
+                $products = $productsList['durafloor'];
+            }elseif (is_page('Rodapé Eucafloor')){
+                $jsonProducts = file_get_contents(__DIR__ . '/../../includes/baseboard.json');
+                $productsList = json_decode($jsonProducts, true);
+                $products = $productsList['eucafloor'];
+            }elseif (is_page('Rodapé Madebene')){
+                $jsonProducts = file_get_contents(__DIR__ . '/../../includes/baseboard.json');
+                $productsList = json_decode($jsonProducts, true);
+                $products = $productsList['madebene'];
+            }elseif (is_page('Rodapé Santa Luzia')){
+                $jsonProducts = file_get_contents(__DIR__ . '/../../includes/baseboard.json');
+                $productsList = json_decode($jsonProducts, true);
+                $products = $productsList['santa-luzia'];
+            }elseif (is_page('Rodapé Santa Luzia')){
+                $jsonProducts = file_get_contents(__DIR__ . '/../../includes/baseboard.json');
+                $productsList = json_decode($jsonProducts, true);
+                $products = $productsList['santa-luzia'];
+            }elseif (is_page('Persianas')){
+                $jsonProducts = file_get_contents(__DIR__ . '/../../includes/shutter.json');
+                $productsList = json_decode($jsonProducts, true);
+                $products = $productsList['shutter'];
             }else{
                 $products = null;
             }
@@ -28,7 +60,7 @@
                     <section class="page__products__row__card">
 
                         <!-- header -->
-                        <header class="page__products__row__card__header mb-3">
+                        <header class="page__products__row__card__header <?= ($product['description'] == null ? 'mb-7' : 'mb-3'); ?>">
                             <h2 class="f-7"><?= $product['title']; ?></h2>
                             <?php if($product['thickness'] != null): ?>
                                 <p class="f-3">Espessura: <?= $product['thickness']; ?></p>
@@ -37,13 +69,15 @@
                         </header>
                         <!-- end of header -->
 
-                        <!-- wrapper -->
-                        <div class="page__products__row__card__wrapper mb-7 t-justify">
-                            <?php foreach ($product['description'] as $item): ?>
-                                <p><?= $item; ?></p>
-                            <?php endforeach; ?>
-                        </div>
-                        <!-- end of wrapper -->
+                        <?php if($product['description'] != null): ?>
+                            <!-- wrapper -->
+                            <div class="page__products__row__card__wrapper mb-7 t-justify">
+                                <?php foreach ($product['description'] as $item): ?>
+                                    <p><?= $item; ?></p>
+                                <?php endforeach; ?>
+                            </div>
+                            <!-- end of wrapper -->
+                        <?php endif; ?>
 
                         <!-- body -->
                         <div class="page__products__row__card__body grid">

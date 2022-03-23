@@ -1,0 +1,40 @@
+@use "../../abstracts" as *;
+
+.content{
+    &__environment{
+        &__row{
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    &__benefits{
+        &__row{
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            
+            &__card{
+                &__header{
+                    h3{
+                        font-size: 1.8rem;
+                    }
+                }
+            }
+        }
+    }
+    
+    //breakpoint mobile
+    @include mq(sm){
+        &__decoration, &__types, &__environment,  &__benefits{
+            &__header{
+                h2{
+                    font-size: var(--fs-600) !important;
+                }
+            }    
+        }
+        
+        &__environment{
+            &__row{
+                grid-template-columns: 1fr;
+            }
+        }
+    }
+}

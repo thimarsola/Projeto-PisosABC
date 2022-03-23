@@ -56,7 +56,7 @@
                     <li>
                         <i class="icon-whatsapp"></i>
                         <?php
-                        $number = (is_page('Papel de Parede') ? CONTACT["whatsapp"]["number"]["paper"] : CONTACT["whatsapp"]["number"]["store"]);
+                        $number = (is_page(['Persianas', 'Papel de Parede']) ? CONTACT["whatsapp"]["number"]["paper"] : CONTACT["whatsapp"]["number"]["store"]);
 
                         echo whatsapp(formatPhone($number), CONTACT["whatsapp"]["message"]["generic"], $number, 'link-white-500');
                         ?>

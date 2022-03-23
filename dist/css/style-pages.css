@@ -1742,8 +1742,39 @@ body {
   grid-template-columns: 1fr;
   gap: var(--fs-1000);
 }
+.page__products__row__card__body {
+  grid-template-columns: repeat(3, 1fr);
+}
 .page__products__row__card__body__line__header h3 {
   font-size: 2rem;
+}
+@media only screen and (max-width: 768px) {
+  .page__products__row__card__body {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (max-width: 576px) {
+  .page__products__row__card__body {
+    grid-template-columns: 1fr;
+  }
+}
+
+.content__environment__row {
+  grid-template-columns: repeat(2, 1fr);
+}
+.content__benefits__row {
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.content__benefits__row__card__header h3 {
+  font-size: 1.8rem;
+}
+@media only screen and (max-width: 576px) {
+  .content__decoration__header h2, .content__types__header h2, .content__environment__header h2, .content__benefits__header h2 {
+    font-size: var(--fs-600) !important;
+  }
+  .content__environment__row {
+    grid-template-columns: 1fr;
+  }
 }
 
 .information__row__content__container {
