@@ -42,6 +42,8 @@ $pagesJs = new MatthiasMullie\Minify\JS();
 $pagesJs->add(dirname(__DIR__, 1) . "/assets/js/vendors/jquery.js");
 $pagesJs->add(dirname(__DIR__, 1) . "/assets/js/theme/functions/menu.js");
 $pagesJs->add(dirname(__DIR__, 1) . "/assets/js/theme/functions/sticky.js");
+$pagesJs->add(dirname(__DIR__, 1) . "/assets/js/theme/functions/request.js");
+$pagesJs->add(dirname(__DIR__, 1) . "/assets/js/vendors/sweetalert2.all.js");
 $pagesJs->minify(dirname(__DIR__, 1) . "/dist/js/script-pages.min.js");
 
 /**

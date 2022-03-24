@@ -1,0 +1,3 @@
+<div class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58459.826864731556!2d-46.593097220898485!3d-23.685283599999988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce43b1675b7821%3A0xb0713179e568933d!2sPisos%20ABC!5e0!3m2!1spt-BR!2sbr!4v1648123581607!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
