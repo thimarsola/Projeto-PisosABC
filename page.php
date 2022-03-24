@@ -34,4 +34,14 @@
     <!-- end of information -->
 <?php endif; ?>
 
+<?php if(is_page('Contato')): ?>
+    <!-- map -->
+    <?php get_template_part('template-parts/pages/page', 'map'); ?>
+    <!-- end of map -->
+
+    <!-- contact -->
+    <?php get_template_part('template-parts/pages/page', 'contact'); ?>
+    <!-- end of contact -->
+<?php endif; ?>
+
 <?php get_footer(); ?>

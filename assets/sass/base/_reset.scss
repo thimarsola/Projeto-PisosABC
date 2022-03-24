@@ -94,24 +94,22 @@ input,
 textarea {
   width: 100%;
   height: 100%;
-  padding: 2rem;
+  padding: var(--fs-200) var(--fs-300);
   line-height: 1.5;
-  border: 2px solid var(--clr-neutral-500);
-  border-radius: 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
   background: var(--clr-white-500);
   transform: scale(1);
-  -webkit-appearance: none !important;
-  -webkit-border-radius: 0 !important;
   @include transition(all);
 
   &:focus{
-    border-color: rgba(#000, .05);
+    border-color: darken(#ccc, 15%);
     @include transition(all);
   }
 
   &::-webkit-input-placeholder {
     font: {
-      size: var(--fs-200) !important;
+      size: 1.4rem !important;
     }
 
     color: inherit;
@@ -119,30 +117,30 @@ textarea {
 
   &::-moz-placeholder {
     font: {
-      size: var(--fs-200) !important;
+      size: 1.4rem !important;
     }
-    color: var(--text-gray-500);
+    color: var(--text-neutral-500);
   }
 
   &:-ms-input-placeholder {
     font: {
-      size: var(--fs-200) !important;
+      size: 1.4rem !important;
     }
-    color: var(--text-gray-500);
+    color: var(--text-neutral-500);
   }
 
   &::-ms-input-placeholder {
     font: {
-      size: var(--fs-200) !important;
+      size: 1.4rem !important;
     }
-    color: var(--text-gray-500);
+    color: var(--text-neutral-500);
   }
 
   &::placeholder {
     font: {
-      size: var(--fs-200) !important;
+      size: 1.4rem !important;
     }
-    color: var(--text-gray-500);
+    color: var(--text-neutral-500);
   }
 
   @include mq(sm){

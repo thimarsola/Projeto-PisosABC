@@ -36,8 +36,9 @@
             &__contact{
                 ul{
                     li{
-                        display: flex;
-                        gap: 1rem;
+                        display: grid;
+                        grid-template-columns: 2rem 1fr;
+                        gap: .5rem;
                     }
                 }
             }
