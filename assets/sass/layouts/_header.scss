@@ -133,7 +133,7 @@
                 top: calc(13rem - 12px);
                 right: 0;
                 width: 100%;
-                height: 50vh;
+                height: 55vh;
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -151,7 +151,9 @@
                     text-align: center;
                     
                     li{
-                        color: var(--clr-neutral-500) !important;
+                        a{
+                            color: var(--clr-neutral-500) !important;
+                        }
                     }
                 }
             }
