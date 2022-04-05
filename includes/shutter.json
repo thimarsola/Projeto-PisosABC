@@ -1,0 +1,69 @@
+{
+    "shutter": [
+        {
+            "title": "Persiana Romana",
+            "thickness": null,
+            "description": null,
+            "lines": [
+                "Romana - M01",
+                "Romana - M02",
+                "Romana - M03",
+                "Romana com Blackout",
+                "Romana Tecido Screen Rústico"
+            ]
+        },
+        {
+            "title": "Persiana Premium",
+            "thickness": null,
+            "description": null,
+            "lines": [
+                "Persiana de Teto",
+                "Sublime",
+                "Stillo Vernaccia",
+                "Stillo Vernaccia 2",
+                "Stillo Preta Basic",
+                "Stillo Preta 2",
+                "Stillo 4 folhas",
+                "Illumine Branca",
+                "Painel com hastes",
+                "Painel sem Bandô"
+            ]
+        },
+        {
+            "title": "Persiana Horizontal",
+            "thickness": null,
+            "description": null,
+            "lines": [
+                "Horizontal de alumínio - M01",
+                "Horizontal de alumínio - M02",
+                "Horizontal de alumínio - M03",
+                "Horizontal de alumínio 25mm",
+                "Horizontal de PVC"
+            ]
+        },
+        {
+            "title": "Persiana Vertical",
+            "thickness": null,
+            "description": null,
+            "lines": [
+                "Persiana Vertical - M01",
+                "Persiana Vertical - M02",
+                "Persiana Vertical - M03",
+                "Persiana Vertical Preta"
+            ]
+        },
+        {
+            "title": "Persiana Rolo",
+            "thickness": null,
+            "description": null,
+            "lines": [
+                "Persiana Rolo 5% Branca",
+                "Persiana Rolo com Bandô",
+                "Persiana Rolo Invertida",
+                "Persiana Rolo Trilho de Correr",
+                "Persiana Rolo Sem bandô",
+                "Persiana Rolo Transpassada"
+            ]
+        }
+    ]
+}

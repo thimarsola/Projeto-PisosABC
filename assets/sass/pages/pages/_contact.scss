@@ -1,0 +1,81 @@
+@use "../../abstracts" as *;
+
+.contact{
+    &__row{
+        grid-template-columns: 35rem 1fr;
+        
+        &__information{
+            &__wrapper{
+                padding-top: 1rem;
+                &__card{
+                    width: 100%;
+                    display: grid;
+                    grid-template-columns: 5rem 1fr;
+                    gap: var(--gap);
+                    
+                    &__icon{
+                        line-height: 1!important;
+                        align-self: center;
+                    }
+                    
+                    &__content{
+                        &__header{
+                            h3{
+                                font-size: 1.8rem;
+                            }
+                        }
+                        
+                        &__body{
+                            font-size: 14px;
+                            line-height: 1.25 !important;
+                        }
+                    }
+                    
+                    
+                }
+            }
+        }
+        
+        &__form{
+            &__wrapper{
+                &__header{
+                    p{
+                        font-size: 13px;
+                    }
+                }
+                
+                &__content{
+                    form{
+                        display: grid;
+                        grid-template-columns: 1fr;
+                        gap: var(--gap);
+                    }
+                }
+            }
+        }
+    }
+    
+    //breakpoint tablet
+   @include mq(md){
+        &__row{
+            grid-template-columns: 1fr;
+            gap: calc(var(--gap) * 6);
+        }
+    }
+
+    .swal2-loader {
+        border-color: var(--clr-primary-500) !important;
+        outline: none;
+    }
+
+    .swal2-styled.swal2-confirm {
+        background-color: var(--clr-primary-500) !important;
+        transition: all 300ms ease-in-out;
+
+
+        &:hover {
+            background-color: darken($primary, 10%) !important;
+            transition: all 300ms ease-in-out;
+        }
+    }
+}

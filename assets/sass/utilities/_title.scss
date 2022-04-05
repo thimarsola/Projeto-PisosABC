@@ -1,0 +1,9 @@
+@use "../abstracts/mixins" as *;
+
+.line{
+  display: inline-block;
+  line-height: 1 !important;
+  width: var(--fs-500);
+  height: 4px;
+  background: var(--clr-primary-500);
+}

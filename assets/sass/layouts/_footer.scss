@@ -1,0 +1,107 @@
+@use '../abstracts' as *;
+
+.footer{
+    &__content{
+        font-size: 1.4rem;
+
+        &__row{
+            grid-template-columns: repeat(4, 1fr);
+
+            h2{
+                font-size: 1.8rem;
+            }
+
+            ul{
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            &__products, &__menu{
+                ul{
+                    li{
+                        a{
+                            color: inherit;
+                            @include transition(color);
+
+                            &:hover{
+                                color: var(--clr-primary-500);
+                                @include transition(color);
+                            }
+                        }
+                    }
+                }
+            }
+
+            &__contact{
+                ul{
+                    li{
+                        display: grid;
+                        grid-template-columns: 2rem 1fr;
+                        gap: .5rem;
+                    }
+                }
+            }
+        }
+    }
+
+    &__developer{
+        &__row{
+            line-height: 1.1 !important;
+
+            a{
+                &:hover{
+                    color: darken($primary, 30%);
+                }
+
+                i{
+                    margin-right: 4px;
+                }
+            }
+        }
+    }
+    
+    //breakpoint tablet
+    @include mq(md){
+        &__content{
+            font-size: 12px;
+            
+            &__row{
+                grid-template-columns: repeat(2, 1fr);
+                gap: calc(var(--gap) * 4);
+                
+                &__contact{
+                    grid-row: 1/2;
+                    grid-column: 2/3;
+                }
+            }
+        }
+    }
+
+    //breakpoint mobile
+    @include mq(sm){
+        &__content{
+            &__row{
+                &__brand{
+                    grid-column: 1/3;
+                    text-align: center;
+                    
+                    img{
+                        margin-inline: auto;
+                    }
+                }
+                
+                &__contact{
+                    grid-row: 2/3;
+                    grid-column: 1/3;
+                }
+            }
+        }
+        
+        &__developer{
+            &__row{
+                gap: var(--fs-100);
+            }
+        }
+    }
+}

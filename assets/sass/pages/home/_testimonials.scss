@@ -1,0 +1,44 @@
+@use "../../abstracts" as *;
+
+.testimonials{
+    
+    &__row{
+        max-width: 73rem;
+        
+        &__card{
+            &__body{
+                p{
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+
+    .owl-dots {
+        text-align: center;
+        margin-top: var(--fs-200);
+    }
+
+    .owl-dot {
+        width: 1rem;
+        height: 1rem;
+        border-radius: 3rem;
+        border: none;
+        cursor: pointer;
+        outline: none;
+        background: var(--clr-gray-300) !important;
+        margin: 0 var(--fs-100);
+        @include transition(background);
+
+        &:hover{
+            background: var(--clr-primary-500) !important;
+            @include transition(background);
+        }
+
+        &.active {
+            width: 3rem;
+            background: var(--clr-primary-500) !important;
+            @include transition(background);
+        }
+    }
+}

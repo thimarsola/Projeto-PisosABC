@@ -1,0 +1,7 @@
+@use "../../abstracts" as *;
+
+.page{
+    &__hero{
+        height: 35rem;
+    }
+}

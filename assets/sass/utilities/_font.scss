@@ -1,0 +1,23 @@
+@use '../abstracts' as *;
+
+@for $i from 1 through 10{
+    .f-#{$i}{
+        font-size: calc(var(--fs-100) * #{$i}) !important;
+    }
+}
+
+.f-regular{
+    font-weight: var(--regular) !important;
+}
+
+.f-medium{
+    font-weight: var(--medium) !important;
+}
+
+.f-bold{
+    font-weight: var(--bold) !important;
+}
+
+.l-small{
+    line-height: 1.1 !important;
+}

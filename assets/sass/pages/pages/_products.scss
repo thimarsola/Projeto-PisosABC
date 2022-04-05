@@ -1,0 +1,50 @@
+@use "../../abstracts" as *;
+
+.page{
+    &__products{
+        &__row{
+            grid-template-columns: 1fr;
+            gap: var(--fs-1000);
+            
+            &__card{
+                &__body{
+                    grid-template-columns: repeat(3, 1fr);
+                    
+                    &__line{
+                        &__header{
+                            h3{
+                                font-size: 2rem;
+                            }
+                        }
+                    }
+                }
+            } 
+        }
+    }
+    
+    //breakpoint tablet
+    @include mq(md){
+        &__products{
+            &__row{
+                &__card{
+                    &__body{
+                        grid-template-columns: repeat(2, 1fr);
+                    }
+                }
+            }
+        }
+    }
+    
+    //breakpoint mobile
+    @include mq(sm){
+        &__products{
+            &__row{
+                &__card{
+                    &__body{
+                        grid-template-columns: 1fr;
+                    }
+                }
+            }
+        }
+    }
+}

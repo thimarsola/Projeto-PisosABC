@@ -1,0 +1,34 @@
+@use '../abstracts' as *;
+
+:root {
+    --font-base: 50%;
+    --gap: 1.5rem;
+    --regular: 300;
+    --medium: 500;
+    --bold: 700;
+
+    @include breakpoint(md) {
+        --font-base: 62.5%;
+    }
+
+    @each $color, $shade in $colors {
+        @each $prop, $value in $shade {
+            --clr-#{$color}-#{$prop}: #{$value};
+        }
+    }
+
+    @each $color, $shade in $colors {
+        @each $prop, $value in $shade {
+            --text-#{$color}-#{$prop}: #{$value};
+        }
+    }
+
+    @each $screen-size, $property in $type-scale {
+        --fs-#{$screen-size}: #{$property};
+    }
+
+    @each $screen-size, $property in $container-max-widths {
+        --#{$screen-size}: #{$property};
+    }
+
+}

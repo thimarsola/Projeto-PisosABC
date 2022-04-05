@@ -1,0 +1,115 @@
+@import "font_variables";
+
+@font-face {
+    font-family: '#{$icomoon-font-family}';
+    src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?thn887');
+    src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?thn887#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?thn887') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?thn887') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?thn887##{$icomoon-font-family}') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+i {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: '#{$icomoon-font-family}' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-map {
+    &:before {
+        content: $icon-map;
+    }
+}
+.icon-card {
+    &:before {
+        content: $icon-card;
+    }
+}
+.icon-certificatealt {
+    &:before {
+        content: $icon-certificatealt;
+    }
+}
+.icon-clock-outline {
+    &:before {
+        content: $icon-clock-outline;
+    }
+}
+.icon-clock {
+    &:before {
+        content: $icon-clock;
+    }
+}
+.icon-html {
+    &:before {
+        content: $icon-html;
+    }
+}
+.icon-location-arrow {
+    &:before {
+        content: $icon-location-arrow;
+    }
+}
+.icon-mail {
+    &:before {
+        content: $icon-mail;
+    }
+}
+.icon-map-marker {
+    &:before {
+        content: $icon-map-marker;
+    }
+}
+.icon-notification {
+    &:before {
+        content: $icon-notification;
+    }
+}
+.icon-phone-outline {
+    &:before {
+        content: $icon-phone-outline;
+    }
+}
+.icon-phone {
+    &:before {
+        content: $icon-phone;
+    }
+}
+.icon-spinner {
+    &:before {
+        content: $icon-spinner;
+    }
+}
+.icon-star {
+    &:before {
+        content: $icon-star;
+    }
+}
+.icon-testimonial {
+    &:before {
+        content: $icon-testimonial;
+    }
+}
+.icon-truck {
+    &:before {
+        content: $icon-truck;
+    }
+}
+.icon-whatsapp {
+    &:before {
+        content: $icon-whatsapp;
+    }
+}
+
