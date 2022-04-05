@@ -46,12 +46,15 @@
                     li{
                         font-weight: 500 !important;
                         line-height: 1.1 !important;
-                        color: var(--clr-white-500);
-                        @include transition(all);
-
-                        &:hover{
-                            color: var(--clr-primary-500);
+                        
+                        a{
+                            color: var(--clr-white-500);
                             @include transition(all);
+
+                            &:hover{
+                                color: var(--clr-primary-500);
+                                @include transition(all);
+                            }
                         }
                     }
                 }
