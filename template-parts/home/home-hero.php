@@ -25,9 +25,9 @@
                     <!-- content -->
                     <div class="hero__content__body__cta__content">
                         <span>
-                            <a rel="nofollow noopener noreferrer" href="tel:<?= CONTACT['phone']['02']; ?>" title="Vamos conversar pelo telefone?" class="link-white-500" target="_blank"><?= CONTACT['phone']['02']; ?></a>
+                            <a rel="nofollow noopener noreferrer" href="tel:<?= formatPhone(CONTACT['phone']['02']); ?>" title="Vamos conversar pelo telefone?" class="link-white-500" target="_blank"><?= CONTACT['phone']['02']; ?></a>
                             |
-                            <a rel="nofollow noopener noreferrer" href="tel:<?= CONTACT['whatsapp']['number']['store']; ?>" title="Vamos conversar pelo celular?" class="link-white-500" target="_blank"><?= CONTACT['whatsapp']['number']['store']; ?></a>
+                            <a rel="nofollow noopener noreferrer" href="tel:<?= formatPhone(CONTACT['whatsapp']['number']['store']); ?>" title="Vamos conversar pelo celular?" class="link-white-500" target="_blank"><?= CONTACT['whatsapp']['number']['store']; ?></a>
                         </span>
                     </div>
                     <!-- end of content -->
