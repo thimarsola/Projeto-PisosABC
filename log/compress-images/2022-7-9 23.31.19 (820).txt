@@ -1,0 +1,7 @@
+File from: [./assets/images/imagem-quem-somos.png]
+
+File to: [./dist/images/imagem-quem-somos.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: Command failed: /home/marsola/projects/pisosabc.com.br/public/wp-content/themes/pisosabc/node_modules/pngquant-bin/vendor/pngquant --quality=90-100 -o ./dist/images/imagem-quem-somos.png ./assets/images/imagem-quem-somos.png
