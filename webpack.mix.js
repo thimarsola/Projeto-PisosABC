@@ -55,7 +55,7 @@ mix
     .purgeCss({
         extend: {
             enabled: true,
-            content: ["**/*.php", "**/*.js", "includes/*.json"],
+            content: ["**/*.php", "**/*.js", "**/*.json"],
             whitelistPatterns: [/hljs/],
         },
     })
