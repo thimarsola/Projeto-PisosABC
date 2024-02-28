@@ -43,20 +43,20 @@
                     "3D"
                 ];
 
-                foreach ($categories as $category):
-                    ?>
+                foreach ($categories as $category) :
+                ?>
 
                     <!-- card -->
                     <article class="content__types__row__card">
                         <!-- image -->
                         <div class="content__types__row__card__image">
                             <?php
-                            $image = get_the_title() . ' ' . $category;
+                            $image = 'Papel de Parede ' . $category;
                             echo picture(sanitize_title($image), 'Conheça essa nossa linha de produtos', 'img-fluid');
                             ?>
-                        </div> 
+                        </div>
                         <!-- end of image -->
-                        
+
                         <!-- header -->
                         <header class="content__types__row__card__header f-3 t-center mt-2">
                             <h3><?= $category; ?></h3>
@@ -98,21 +98,21 @@
                     "Banheiro"
                 ];
 
-                foreach ($environments as $environment):
-                    ?>
+                foreach ($environments as $environment) :
+                ?>
 
                     <!-- card -->
                     <article class="content__environment__row__card">
-                        
+
                         <!-- image -->
-                         <div class="content__environment__row__card__image">
-                             <?php
-                             $image = get_the_title() . ' ' . $environment;
-                             echo picture(sanitize_title($image), 'Conheça essa nossa linha de produtos', 'img-fluid');
-                             ?>
-                         </div> 
+                        <div class="content__environment__row__card__image">
+                            <?php
+                            $image = 'Papel de Parede ' . ' ' . $environment;
+                            echo picture(sanitize_title($image), 'Conheça essa nossa linha de produtos', 'img-fluid');
+                            ?>
+                        </div>
                         <!-- end od image -->
-                        
+
                         <!-- header -->
                         <header class="content__environment__row__card__header f-3 t-center mt-2">
                             <h3><?= $environment; ?></h3>
@@ -127,52 +127,52 @@
             <!-- end of row -->
         </section>
         <!-- end of environment -->
-        
+
         <!-- benefits -->
-         <section class="content__benefits">
-             <!-- header -->
-             <header class="content__benefits__header mb-3">
-                 <h2 class="f-7">Vantagens dos papéis de parede</h2>
-                 <div class="line"></div>
-             </header>
-             <!-- end of header -->
+        <section class="content__benefits">
+            <!-- header -->
+            <header class="content__benefits__header mb-3">
+                <h2 class="f-7">Vantagens dos papéis de parede</h2>
+                <div class="line"></div>
+            </header>
+            <!-- end of header -->
 
-             <!-- body -->
-             <div class="content__benefits__body t-justify mb-7">
-                 <p>Além de mudar por completo o ambiente sem precisar de reformas, o papel de parede apresenta algumas outras vantagens.</p>
-             </div>
-             <!-- end of body -->
-             
-             <!-- row -->
-              <div class="content__benefits__row grid">
-                  <?php
-                  
-                  $jsonBenefits = file_get_contents(__DIR__ . '/../../includes/benefits.json');
-                  $benefits = json_decode($jsonBenefits, true);
+            <!-- body -->
+            <div class="content__benefits__body t-justify mb-7">
+                <p>Além de mudar por completo o ambiente sem precisar de reformas, o papel de parede apresenta algumas outras vantagens.</p>
+            </div>
+            <!-- end of body -->
 
-                  foreach ($benefits['benefits'] as $benefit):
-                      ?>
+            <!-- row -->
+            <div class="content__benefits__row grid">
+                <?php
 
-                      <!-- card -->
-                      <article class="content__benefits__row__card">
-                          <!-- header -->
-                          <header class="content__benefits__row__card__header mb-1 text-primary-500">
-                              <h3><?= $benefit['title']; ?></h3>
-                          </header>
-                          <!-- end of header -->
-                          
-                          <!-- body -->
-                           <div class="content__benefits__row__card__body t-small t-justify">
-                               <p><?= $benefit['description']; ?></p>
-                           </div> 
-                          <!-- end of body -->
-                      </article>
-                      <!-- end of card -->
+                $jsonBenefits = file_get_contents(__DIR__ . '/../../includes/benefits.json');
+                $benefits = json_decode($jsonBenefits, true);
 
-                  <?php endforeach; ?>
-              </div> 
-             <!-- end of row -->
-         </section> 
+                foreach ($benefits['benefits'] as $benefit) :
+                ?>
+
+                    <!-- card -->
+                    <article class="content__benefits__row__card">
+                        <!-- header -->
+                        <header class="content__benefits__row__card__header mb-1 text-primary-500">
+                            <h3><?= $benefit['title']; ?></h3>
+                        </header>
+                        <!-- end of header -->
+
+                        <!-- body -->
+                        <div class="content__benefits__row__card__body t-small t-justify">
+                            <p><?= $benefit['description']; ?></p>
+                        </div>
+                        <!-- end of body -->
+                    </article>
+                    <!-- end of card -->
+
+                <?php endforeach; ?>
+            </div>
+            <!-- end of row -->
+        </section>
         <!-- end of benefits -->
     </div>
 </div>

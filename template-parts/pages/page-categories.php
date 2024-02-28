@@ -4,20 +4,25 @@
         <!-- header -->
         <header class="page__categories__header mb-7">
             <?php
-            if(is_page('Pisos Laminados')){
+            if (is_page('Pisos Laminados')) {
                 $title = "Conheça as nossas linhas de Pisos Laminados";
                 $description = "Trabalhamos com todas as linhas de pisos laminados Eucafloor e Duratex";
-            }elseif (is_page('Pisos Vinílicos')){
+            } elseif (is_page('Pisos Vinílicos')) {
                 $title = "Conheça as nossas linhas de Pisos Vinílicos (LVT)";
                 $description = "Trabalhamos com todas as linhas de Pisos Vinílicos Eucafloor, Duratex e Tarkett";
-            }elseif (is_page('Rodapés')){
+            } elseif (is_page('Pisos prontos de Madeira Maciça')) {
+                $title = "Conheça os nossos Pisos prontos de Madeira Maciça";
+                $description = null;
+            } elseif (is_page('Rodapés')) {
                 $title = "Conheça as nossas linhas de Rodapés";
                 $description = "Trabalhamos com todas as linhas de Rodapés Eucafloor, Duratex, Madebene e Santa Luzia";
             }
             ?>
 
             <h2 class="f-7 mb-1"><?= $title; ?></h2>
-            <p class="t-justify"><?= $description; ?></p>
+            <?php if (!$description == null) : ?>
+                <p class="t-justify"><?= $description; ?></p>
+            <?php endif; ?>
         </header>
         <!-- end of header -->
 
@@ -25,28 +30,35 @@
         <div class="page__page__categories__row grid">
 
             <?php
-            if(is_page('Pisos Laminados')){
+            if (is_page('Pisos Laminados')) {
                 $categories = [
                     "Piso Laminado Durafloor",
                     "Piso Laminado Eucafloor"
                 ];
-            }elseif (is_page('Pisos Vinílicos')){
+            } elseif (is_page('Pisos Vinílicos')) {
                 $categories = [
                     "Piso Vinílico Durafloor",
                     "Piso Vinílico Eucafloor",
                     "Piso Vinílico Tarkett"
                 ];
-            }elseif (is_page('Rodapés')){
+            } elseif (is_page('Rodapés')) {
                 $categories = [
                     "Rodapé Durafloor",
                     "Rodapé Eucafloor",
                     "Rodapé Madebene",
                     "Rodapé Santa Luzia"
                 ];
+            } elseif (is_page('Pisos prontos de Madeira Maciça')) {
+                $categories = [
+                    "Cumaru Rosa Mel",
+                    "Tauari",
+                    "Grapia",
+                    "Ipê Coffe Brown"
+                ];
             }
 
-            foreach ($categories as $category):
-                ?>
+            foreach ($categories as $category) :
+            ?>
 
                 <!-- card -->
                 <article class="page__categories__row__card">
