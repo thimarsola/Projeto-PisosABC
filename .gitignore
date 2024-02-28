@@ -1,6 +1,14 @@
-node_modules/
-vendor/
-log/
+node_modules
+vendor
 source/Config.php
 composer.phar
 .DS_Store
+
+# Logs
+*.log
+
+.idea/
+package-lock.json
+log/
+composer.lock
+dist/mix-manifest.json

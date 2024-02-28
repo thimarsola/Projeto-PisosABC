@@ -5,9 +5,10 @@
 
             <!-- brand -->
             <div class="footer__content__row__brand">
-                <?= picture('logo-rodape', 'Logo ' . SITE['name'], 'mb-3', 'png'); ?>
+                <?= picture('logo-rodape', 'Logo '.SITE['name'], 'mb-3', 'png'); ?>
 
-                <p>As melhores soluções em pisos laminados, pisos vinílicos e cortinas você encontra aqui na Pisos ABC.</p>
+                <p>As melhores soluções em pisos laminados, pisos vinílicos e cortinas você encontra aqui na Pisos
+                    ABC.</p>
             </div>
             <!-- end of brand -->
 
@@ -48,33 +49,42 @@
                     <li>
                         <i class="icon-phone"></i>
                         <span>
-                            <a rel="nofollow noopener noreferrer" href="tel:<?= formatPhone(CONTACT['phone']['01']); ?>" title="Vamos conversar pelo telefone?" class="link-white-500"><?= CONTACT['phone']['01']; ?></a>
+                            <a rel="nofollow noopener noreferrer" href="tel:<?= formatPhone(CONTACT['phone']['01']); ?>"
+                               title="Vamos conversar pelo telefone?"
+                               class="link-white-500"><?= CONTACT['phone']['01']; ?></a>
                             |
-                            <a rel="nofollow noopener noreferrer" href="tel:<?= formatPhone(CONTACT['phone']['02']); ?>" title="Vamos conversar pelo telefone?" class="link-white-500"><?= CONTACT['phone']['02']; ?></a>
+                            <a rel="nofollow noopener noreferrer" href="tel:<?= formatPhone(CONTACT['phone']['02']); ?>"
+                               title="Vamos conversar pelo telefone?"
+                               class="link-white-500"><?= CONTACT['phone']['02']; ?></a>
                         </span>
                     </li>
                     <li>
                         <i class="icon-whatsapp"></i>
                         <?php
-                        $number = (is_page(['Persianas', 'Papel de Parede']) ? CONTACT["whatsapp"]["number"]["paper"] : CONTACT["whatsapp"]["number"]["store"]);
+                        $number = (is_page([
+                            'Persianas', 'Papel de Parede'
+                        ]) ? CONTACT["whatsapp"]["number"]["paper"] : CONTACT["whatsapp"]["number"]["store"]);
 
-                        echo whatsapp(formatPhone($number), CONTACT["whatsapp"]["message"]["generic"], $number, 'link-white-500');
+                        echo whatsapp(formatPhone($number), CONTACT["whatsapp"]["message"]["generic"], $number,
+                            'link-white-500');
                         ?>
                     </li>
                     <li>
                         <i class="icon-mail"></i>
-                        <a rel="nofollow noopener noreferrer" href="mailto:<?= CONTACT['mail']; ?>" class="link-white-500" target="_blank"><?= CONTACT['mail']; ?></a>
+                        <a rel="nofollow noopener noreferrer" href="mailto:<?= CONTACT['mail']; ?>"
+                           class="link-white-500" target="_blank"><?= CONTACT['mail']; ?></a>
                     </li>
                     <li>
                         <i class="icon-map-marker"></i>
-                        <a rel="nofollow noopener noreferrer" href="<?= CONTACT['addressLink']; ?>" class="link-white-500" target="_blank"><?= CONTACT['address']; ?></a>
+                        <a rel="nofollow noopener noreferrer" href="<?= CONTACT['addressLink']; ?>"
+                           class="link-white-500" target="_blank"><?= CONTACT['address']; ?></a>
                     </li>
                     <li>
                         <i class="icon-clock"></i>
                         <span>
-                            Segunda a Sexta: 8h às 18h
+                            Segunda a Sexta: 8h às 20h
                             <br>
-                            Sábados: 8h às 14h
+                            Sábados: 8h às 13h
                           </span>
                     </li>
                 </ul>
