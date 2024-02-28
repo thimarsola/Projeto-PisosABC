@@ -9,7 +9,7 @@
                 $description = "Trabalhamos com todas as linhas de pisos laminados Eucafloor, Duratex e Quick-Step";
             } elseif ( is_page( 'Pisos Vinílicos' ) ) {
                 $title       = "Conheça as nossas linhas de Pisos Vinílicos (LVT)";
-                $description = "Trabalhamos com todas as linhas de Pisos Vinílicos Eucafloor, Duratex e Tarkett";
+                $description = "Trabalhamos com todas as linhas de Pisos Vinílicos Eucafloor, Duratex, Tarkett e Ospefloor";
             } elseif ( is_page( 'Pisos prontos de Madeira Maciça' ) ) {
                 $title       = "Conheça os nossos Pisos prontos de Madeira Maciça";
                 $description = null;
@@ -44,7 +44,8 @@
                 $categories = [
                     "Piso Vinílico Durafloor",
                     "Piso Vinílico Eucafloor",
-                    "Piso Vinílico Tarkett"
+                    "Piso Vinílico Tarkett",
+                    "Piso Vinílico Ospefloor"
                 ];
             } elseif ( is_page( 'Rodapés' ) ) {
                 $categories = [
