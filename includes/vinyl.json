@@ -1,173 +1,243 @@
 {
-    "durafloor": [
-        {
-            "title": "Linha Durafloor Urban",
-            "thickness": "2mm",
-            "description": [
-                "Tradicional e contemporânea, a Linha Urban une todas as tribos. Sua versatilidade serve tanto para ambientes mais rústicos quanto para os mais modernos. Isso tudo com originalidade e um ótimo custo/benefício. Você pode ter vários estilos, a linha Urban Durafloor se encaixa em um deles."
-            ],
-            "lines": [
-                "Turim",
-                "Tulum",
-                "Shanghai",
-                "Parma",
-                "Osaka",
-                "Cingapura",
-                "Cartagena",
-                "Taos",
-                "Santiago",
-                "Valência",
-                "Sinai"
-            ]
-        },
-        {
-            "title": "Linha Durafloor City",
-            "thickness": "3mm",
-            "description": [
-                "Já pensou em andar descalço nas grandes cidades do mundo? Aqui você encontra a durabilidade das calçadas com todo o conforto deste piso Durafloor que é instalado com cola. Leve a beleza de Madrid ou a história de Petra para sua casa ou escritório com a linha City."
-            ],
-            "lines": [
-                "Bari",
-                "Chicago",
-                "Madrid",
-                "Oslo",
-                "Petra",
-                "Sevilha",
-                "Toronto",
-                "Berati",
-                "Barbados"
-            ]
-        },
-        {
-            "title": "Linha Durafloor Art",
-            "thickness": "3mm",
-            "description": [
-                "Os clássicos duram para sempre. A linha Art leva a beleza dos pisos Durafloor para ambientes residenciais e comerciais. Durável, de fácil limpeza e instalação à base de cola trazem um ótimo custo benefício para o seu ambiente."
-            ],
-            "lines": [
-                "Atenas",
-                "Istambul",
-                "Kamari",
-                "Mônaco"
-            ]
-        },
-        {
-            "title": "Linha Durafloor Inova",
-            "thickness": "3mm em placas",
-            "description": [
-                "Indicada para áreas com grande circulação de pessoas, como teatros, cinemas, casas de espetáculos, escolas, hotéis, shopping."
-            ],
-            "lines": [
-                "Londres",
-                "Vesúvio",
-                "Tarragona",
-                "Nepal",
-                "Atlanta",
-                "Vegas",
-                "Belmonte",
-                "Bogotá",
-                "Markina",
-                "Maipo",
-                "Paris",
-                "Carrara",
-                "Recife",
-                "Boston",
-                "Luxor",
-                "Kiev"
-            ]
-        },
-        {
-            "title": "Linha Durafloor Click Nativa",
-            "thickness": "5mm",
-            "description": [
-                "Indicada para áreas com grande circulação de pessoas, como teatros, cinemas, casas de espetáculos, escolas, hotéis, shopping."
-            ],
-            "lines": [
-                "Belem",
-                "Ilhéus",
-                "Manaus",
-                "Montenegro",
-                "Natal",
-                "Noronha",
-                "Santarém",
-                "Vila Velha"
-            ]
-        }
-    ],
-    "eucafloor": [
-        {
-            "title": "Linha Eucafloor Basic",
-            "thickness": "2mm",
-            "description": [
-                "Bonito, prático e fácil de limpar. A opção ideal para residências.",
-                "Charme, sofisticação e um toque de modernidade que você e sua casa merecem. A marca que você já conhece, agora com um novo produto. Inspiração para quem busca novas possibilidades. O piso vinílico LVT é produzido com cloreto de vinila, o PVC, que é resistente à água e traz modernidade a todos os tipos de projeto."
-            ],
-            "lines": [
-                "Tucson",
-                "Santa Fé",
-                "Las Vegas",
-                "Denver",
-                "Seattle",
-                "Kansas"
-            ]
-        },
-        {
-            "title": "Linha Eucafloor Working",
-            "thickness": "3mm",
-            "description": [
-                "Muito mais resistência para todo tipo de ambiente. Comprovada e com garantia.",
-                "A marca que você já conhece, agora com um novo produto, ele é fácil de limpar, não provoca alergias, tem variedade de padrões, texturas e dimensões. Um piso com conforto acústico e confortável em qualquer temperatura. Inspiração para quem busca novas possibilidades. O piso vinílico LVT é produzido com cloreto de vinila, o PVC, que é resistente à água e traz modernidade a todos os tipos de projeto."
-            ],
-            "lines": [
-                "Alaska",
-                "Califórnia",
-                "Dakota",
-                "Florida",
-                "Montana",
-                "Texas"
-            ]
-        }
-    ],
-    "tarkett": [
-        {
-            "title": "Linha Tarkett Injoy",
-            "thickness": null,
-            "description": [
-                "Bonito, prático e fácil de limpar. A opção ideal para residências.",
-                "De instalação fácil, rápida e sem sujeira, a linha de pisos vinílicos Tarkett Injoy oferece o melhor custo-benefício da categoria. Por ser atérmico, a linha de pisos vinílicos Tarkett Injoy é confortável tanto para os dias mais quentes quanto para os mais frios, e sua tecnologia acústica permite caminhar tranquilamente sem fazer toc-toc. Temos também as linhas Essence e Ambienta."
-            ],
-            "lines": [
-                "Prímula",
-                "Menta",
-                "Papoula",
-                "Mate",
-                "Lichia",
-                "Calêndula",
-                "Lavanda",
-                "Centeio",
-                "Camelia",
-                "Lisianto",
-                "Tulipa",
-                "Gérbera"
-            ]
-        },
-        {
-            "title": "Linha Tarkett Essence 30",
-            "thickness": null,
-            "description": [
-                "A linha de pisos vinílicos Essence 30 da Tarkett reúne todas as qualidades que você espera encontrar em um piso vinílico: beleza, praticidade e designs modernos e atuais.",
-                "Com uma variedade de padrões amadeirados clássicos, os pisos vinílicos Essence 30 trazem o conceito natural para dentro dos ambientes."
-            ],
-            "lines": [
-                "Hortênsia",
-                "Melissa",
-                "Begônia",
-                "Malva",
-                "Dália",
-                "Bromélia",
-                "Lírio",
-                "Alfazema"
-            ]
-        }
-    ]
+	"durafloor": [
+		{
+			"title": "Linha Durafloor Urban",
+			"thickness": "2mm",
+			"description": [
+				"Tradicional e contemporânea, a Linha Urban une todas as tribos. Sua versatilidade serve tanto para ambientes mais rústicos quanto para os mais modernos. Isso tudo com originalidade e um ótimo custo/benefício. Você pode ter vários estilos, a linha Urban Durafloor se encaixa em um deles."
+			],
+			"lines": [
+				"Turim",
+				"Tulum",
+				"Shanghai",
+				"Parma",
+				"Osaka",
+				"Cingapura",
+				"Cartagena",
+				"Taos",
+				"Santiago",
+				"Valência",
+				"Sinai"
+			]
+		},
+		{
+			"title": "Linha Durafloor City",
+			"thickness": "3mm",
+			"description": [
+				"Já pensou em andar descalço nas grandes cidades do mundo? Aqui você encontra a durabilidade das calçadas com todo o conforto deste piso Durafloor que é instalado com cola. Leve a beleza de Madrid ou a história de Petra para sua casa ou escritório com a linha City."
+			],
+			"lines": [
+				"Bari",
+				"Chicago",
+				"Madrid",
+				"Oslo",
+				"Petra",
+				"Sevilha",
+				"Toronto",
+				"Berati",
+				"Barbados"
+			]
+		},
+		{
+			"title": "Linha Durafloor Art",
+			"thickness": "3mm",
+			"description": [
+				"Os clássicos duram para sempre. A linha Art leva a beleza dos pisos Durafloor para ambientes residenciais e comerciais. Durável, de fácil limpeza e instalação à base de cola trazem um ótimo custo benefício para o seu ambiente."
+			],
+			"lines": [
+				"Atenas",
+				"Istambul",
+				"Kamari",
+				"Mônaco"
+			]
+		},
+		{
+			"title": "Linha Durafloor Inova",
+			"thickness": "3mm em placas",
+			"description": [
+				"Indicada para áreas com grande circulação de pessoas, como teatros, cinemas, casas de espetáculos, escolas, hotéis, shopping."
+			],
+			"lines": [
+				"Londres",
+				"Vesúvio",
+				"Tarragona",
+				"Nepal",
+				"Atlanta",
+				"Vegas",
+				"Belmonte",
+				"Bogotá",
+				"Markina",
+				"Maipo",
+				"Paris",
+				"Carrara",
+				"Recife",
+				"Boston",
+				"Luxor",
+				"Kiev"
+			]
+		},
+		{
+			"title": "Linha Durafloor Click Nativa",
+			"thickness": "5mm",
+			"description": [
+				"Indicada para áreas com grande circulação de pessoas, como teatros, cinemas, casas de espetáculos, escolas, hotéis, shopping."
+			],
+			"lines": [
+				"Belem",
+				"Ilhéus",
+				"Manaus",
+				"Montenegro",
+				"Natal",
+				"Noronha",
+				"Santarém",
+				"Vila Velha"
+			]
+		}
+	],
+	"eucafloor": [
+		{
+			"title": "Linha Eucafloor Basic",
+			"thickness": "2mm",
+			"description": [
+				"Bonito, prático e fácil de limpar. A opção ideal para residências.",
+				"Charme, sofisticação e um toque de modernidade que você e sua casa merecem. A marca que você já conhece, agora com um novo produto. Inspiração para quem busca novas possibilidades. O piso vinílico LVT é produzido com cloreto de vinila, o PVC, que é resistente à água e traz modernidade a todos os tipos de projeto."
+			],
+			"lines": [
+				"Tucson",
+				"Santa Fé",
+				"Las Vegas",
+				"Denver",
+				"Seattle",
+				"Kansas"
+			]
+		},
+		{
+			"title": "Linha Eucafloor Working",
+			"thickness": "3mm",
+			"description": [
+				"Muito mais resistência para todo tipo de ambiente. Comprovada e com garantia.",
+				"A marca que você já conhece, agora com um novo produto, ele é fácil de limpar, não provoca alergias, tem variedade de padrões, texturas e dimensões. Um piso com conforto acústico e confortável em qualquer temperatura. Inspiração para quem busca novas possibilidades. O piso vinílico LVT é produzido com cloreto de vinila, o PVC, que é resistente à água e traz modernidade a todos os tipos de projeto."
+			],
+			"lines": [
+				"Alaska",
+				"Califórnia",
+				"Dakota",
+				"Florida",
+				"Montana",
+				"Texas"
+			]
+		}
+	],
+	"tarkett": [
+		{
+			"title": "Linha Tarkett Injoy",
+			"thickness": null,
+			"description": [
+				"Bonito, prático e fácil de limpar. A opção ideal para residências.",
+				"De instalação fácil, rápida e sem sujeira, a linha de pisos vinílicos Tarkett Injoy oferece o melhor custo-benefício da categoria. Por ser atérmico, a linha de pisos vinílicos Tarkett Injoy é confortável tanto para os dias mais quentes quanto para os mais frios, e sua tecnologia acústica permite caminhar tranquilamente sem fazer toc-toc. Temos também as linhas Essence e Ambienta."
+			],
+			"lines": [
+				"Prímula",
+				"Menta",
+				"Papoula",
+				"Mate",
+				"Lichia",
+				"Calêndula",
+				"Lavanda",
+				"Centeio",
+				"Camelia",
+				"Lisianto",
+				"Tulipa",
+				"Gérbera"
+			]
+		},
+		{
+			"title": "Linha Tarkett Essence 30",
+			"thickness": null,
+			"description": [
+				"A linha de pisos vinílicos Essence 30 da Tarkett reúne todas as qualidades que você espera encontrar em um piso vinílico: beleza, praticidade e designs modernos e atuais.",
+				"Com uma variedade de padrões amadeirados clássicos, os pisos vinílicos Essence 30 trazem o conceito natural para dentro dos ambientes."
+			],
+			"lines": [
+				"Hortênsia",
+				"Melissa",
+				"Begônia",
+				"Malva",
+				"Dália",
+				"Bromélia",
+				"Lírio",
+				"Alfazema"
+			]
+		}
+	],
+	"ospefloor": [
+		{
+			"title": "Linha Ospefloor Sublime PVC",
+			"thickness": "2mm",
+			"description": [
+				"Os pisos Ospefloor, desenvolvidos com tecnologia alemã, destacam-se por sua alta qualidade e praticidade. São antialérgicos, fáceis de limpar e compostos por material não inflamável."
+			],
+			"lines": [
+				"Dakota",
+				"Trenado",
+				"Sonata",
+				"Mapola",
+				"Patrono",
+				"Episco",
+				"Griff",
+				"Gaioba"
+			]
+		},
+		{
+			"title": "Linha Ospefloor Colado em Placa",
+			"thickness": "3mm",
+			"description": [
+				"Os pisos Ospefloor, desenvolvidos com tecnologia alemã, destacam-se por sua alta qualidade e praticidade. São antialérgicos, fáceis de limpar e compostos por material não inflamável."
+			],
+			"lines": [
+				"Concretum",
+				"Cimentum",
+				"Stone",
+				"Nevada"
+			]
+		},
+		{
+			"title": "Linha Ospefloor Impacto PVC",
+			"thickness": "3mm",
+			"description": [
+				"Os pisos Ospefloor, desenvolvidos com tecnologia alemã, destacam-se por sua alta qualidade e praticidade. São antialérgicos, fáceis de limpar e compostos por material não inflamável."
+			],
+			"lines": [
+				"Envada",
+				"Imperium",
+				"Vingardio",
+				"Obliviate",
+				"Seraverto",
+				"Protego",
+				"Pasquim",
+				"Milla"
+			]
+		},
+		{
+			"title": "Linha Ospefloor Supreme",
+			"thickness": "5mm",
+			"description": [
+				"Os pisos Ospefloor, desenvolvidos com tecnologia alemã, destacam-se por sua alta qualidade e praticidade. São antialérgicos, fáceis de limpar e compostos por material não inflamável."
+			],
+			"lines": [
+				"Amendola",
+				"Americano",
+				"Netuno",
+				"Prada",
+				"Tacama",
+				"Lobato",
+				"Camela",
+				"Unata",
+				"Sparta",
+				"Nimago",
+				"Jurutu",
+				"Finite"
+			]
+		}
+	]
 }

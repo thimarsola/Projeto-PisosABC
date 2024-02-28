@@ -28,6 +28,10 @@
                 $jsonProducts = file_get_contents( __DIR__ . '/../../includes/vinyl.json' );
                 $productsList = json_decode( $jsonProducts, true );
                 $products     = $productsList['tarkett'];
+            } elseif ( is_page( 'Piso Vinílico Ospefloor' ) ) {
+                $jsonProducts = file_get_contents( __DIR__ . '/../../includes/vinyl.json' );
+                $productsList = json_decode( $jsonProducts, true );
+                $products     = $productsList['ospefloor'];
             } elseif ( is_page( 'Rodapé Durafloor' ) ) {
                 $jsonProducts = file_get_contents( __DIR__ . '/../../includes/baseboard.json' );
                 $productsList = json_decode( $jsonProducts, true );
@@ -59,7 +63,6 @@
             if ( ! $products == null ):
                 foreach ( $products as $product ):
                     ?>
-
                     <!-- card -->
                     <section class="page__products__row__card">
 
