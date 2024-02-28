@@ -1,202 +1,315 @@
 {
-    "durafloor": [
-        {
-            "title": "Linha Durafloor Street",
-            "thickness": null,
-            "description": [
-                "A Linha Street tem como essência ser uma linha ousada e criativa. Seus padrões reproduzem materiais como tecidos, tapetes e madeira envelhecida. Além de contar com o substrato Ultra, que confere proteção contra umidade. Ideal para aplicação em lavabos e cozinhas, pois é a prova de água."
-            ],
-            "lines": [
-                "Amsterdã",
-                "Hong Kong",
-                "Moscou",
-                "Nassau",
-                "Verona",
-                "Agra"
-            ]
-        },
-        {
-            "title": "Linha Durafloor Studio",
-            "thickness": null,
-            "description": [
-                "Moderno e rústico estão em harmonia na Linha Studio. Com uma paleta de cores bem contemporânea, os padrões têm veios, vincos aparentes e nós marcantes que trazem o toque clássico dos antigos assoalhos de tábua corrida ao seu ambiente."
-            ],
-            "lines": [
-                "Carvalho Dover",
-                "Carvalho Hanover",
-                "Carvalho Munique",
-                "Carvalho Malta",
-                "Arenal",
-                "Miami"
-            ]
-        },
-        {
-            "title": "Linha Durafloor Link",
-            "thickness": null,
-            "description": [
-                "Na linha Durafloor Link você encontra padrões contemporâneos que ajudam a criar ambientes sofisticados e acolhedores. Seus padrões madeirados criam uma sensação única de conforto e são ideais para ambientes residenciais."
-            ],
-            "lines": [
-                "San Andres",
-                "Mancora",
-                "Bariloche",
-                "Córdoba",
-                "Buenos Aires",
-                "Nogueira Thar",
-                "Tauri-Ravena",
-                "Carvalho Memphis"
-            ]
-        },
-        {
-            "title": "Linha Durafloor Unique",
-            "thickness": null,
-            "description": [
-                "Sua casa vai ficar mais bonita com a linha Unique. Perfeita para ambientes residenciais, essa linha de pisos Durafloor resgata os longos e nobres assoalhos de madeira e também é a prova de água."
-            ],
-            "lines": [
-                "Toledo",
-                "Ferrara",
-                "Chamonix",
-                "Bruxelas",
-                "Lisboa",
-                "Sardenha"
-            ]
-        },
-        {
-            "title": "Linha Durafloor New Way",
-            "thickness": null,
-            "description": [
-                "O Durafloor New Way vem com texturas leves e padrões jovens que trazem novos ares à sua casa. Solte a imaginação em uma incrível relação de custo e benefício."
-            ],
-            "lines": [
-                "Álamo",
-                "Petrópolis",
-                "Nogueira Cadiz",
-                "Maceió",
-                "Itapuã",
-                "Milão",
-                "Carvalho York",
-                "Amêndola Curação",
-                "Carvalho Eterno",
-                "Carvalho Avelã"
-            ]
-        },
-        {
-            "title": "Linha Durafloor Nature",
-            "thickness": null,
-            "description": [
-                "Sinta todo o poder da natureza com a linha Durafloor Nature. Sua textura com entalhes e aparência de madeira natural levam a sensação de relaxamento e equilíbrio para o piso."
-            ],
-            "lines": [
-                "Belgrado",
-                "Cerezo Carmel",
-                "Savoy",
-                "Arizona",
-                "Freijó Puro",
-                "Punta Cana",
-                "Pucón",
-                "Jequitibá Rosa",
-                "Camaru Raiz"
-            ]
-        }
-    ],
-    "eucafloor": [
-        {
-            "title": "Linha Eucafloor Prime",
-            "thickness": null,
-            "description": [
-                "Bonito, prático e fácil de limpar. A opção ideal para residências.",
-                "A linha Prime é uma ótima solução para revestimento de ambientes residenciais de tráfego médio. Tem padrões inovadores e 7 mm de espessura, além de 12 anos de garantia."
-            ],
-            "lines": [
-                "Valência",
-                "Noce Oro",
-                "Lâmina Amêndoa",
-                "Ipê Real",
-                "Nogueira Natural",
-                "Fresno Decapê",
-                "Carvalho",
-                "Carvalho Maiorca",
-                "Cappuccino",
-                "Cacau"
-            ]
-        },
-        {
-            "title": "Linha Eucafloor Prime Click",
-            "thickness": null,
-            "description": [
-                "A linha mais competitiva do mercado, agora com encaixe click!",
-                "Ótima solução para revestimento de ambientes residenciais. Disponível em 5 padrões madeirados com 7 mm de espessura e 12 anos de garantia."
-            ],
-            "lines": [
-                "Valência",
-                "Nogueira Natural",
-                "Fresno Decapê",
-                "Carvalho Maiorca",
-                "Cacau",
-                "Lâmina Amêndoa"
-            ]
-        },
-        {
-            "title": "Linha Eucafloor Evidence",
-            "thickness": null,
-            "description": [
-                "A linha Evidence é perfeita para ambientes que exigem modernidade, praticidade e resistência.",
-                "É Ideal para ambientes residenciais e comerciais de baixo tráfego, a linha Eucafloor Evidence é constituída por exclusivas réguas com 21,7 cm de largura e possui 10 diferentes padrões."
-            ],
-            "lines": [
-                "Nogueira Málaga",
-                "Kalahari",
-                "Italian Noce",
-                "Decapê",
-                "Carvalho Rústico",
-                "Carvalho Coimbra",
-                "Carvalho Canela",
-                "Cacau Marfim",
-                "Andorra",
-                "Lâmina Nogueira"
-            ]
-        },
-        {
-            "title": "Linha Eucafloor New Elegance",
-            "thickness": null,
-            "description": [
-                "A linha New Elegance conta com 14 padrões e tem sete anos de garantia para uso comercial e 16 anos para uso residencial.  Durabilidade e elegância em réguas largas de 292 mm é ideal para utilização em ambientes comerciais e residenciais.Sistema de instalação Click! Instalou, Pisou!"
-            ],
-            "lines": [
-                "Mont Blanc New",
-                "Canyon Black Oak",
-                "Legno Crema",
-                "Sbiancato",
-                "Carvalho Sevilha",
-                "Carvalho Chamonix",
-                "Carvalho Cordoba",
-                "Toulouse Oak",
-                "Smart Oak",
-                "Classic Oak",
-                "Celtic Oak",
-                "Elmo Macciato",
-                "Freijó Ambar",
-                "Moka",
-                "Veneto"
-            ]
-        },
-        {
-            "title": "Linha Eucafloor Gran Elegance",
-            "thickness": null,
-            "description": [
-                "Com tecnologia HPP, exclusivo da Eucatex, o piso laminado Eucafloor Gran Elegance oferece uma nova categoria ao mercado: uma régua com 44,5 cm de largura, o piso mais largo do segmento.",
-                "Seus elementos trazem a tendência vintage, seu sistema de encaixe Click deixa a instalação muito mais rápida e fácil.Sistema de instalação Click! Instalou, Pisou!"
-            ],
-            "lines": [
-                "Carvalho Ouro",
-                "Concreto",
-                "London",
-                "Nova York",
-                "Stone",
-                "Belmonte",
-                "Botticino"
-            ]
-        }
-    ]
+	"durafloor": [
+		{
+			"title": "Linha Durafloor Street",
+			"thickness": null,
+			"description": [
+				"A Linha Street tem como essência ser uma linha ousada e criativa. Seus padrões reproduzem materiais como tecidos, tapetes e madeira envelhecida. Além de contar com o substrato Ultra, que confere proteção contra umidade. Ideal para aplicação em lavabos e cozinhas, pois é a prova de água."
+			],
+			"lines": [
+				"Amsterdã",
+				"Hong Kong",
+				"Moscou",
+				"Nassau",
+				"Verona",
+				"Agra"
+			]
+		},
+		{
+			"title": "Linha Durafloor Studio",
+			"thickness": null,
+			"description": [
+				"Moderno e rústico estão em harmonia na Linha Studio. Com uma paleta de cores bem contemporânea, os padrões têm veios, vincos aparentes e nós marcantes que trazem o toque clássico dos antigos assoalhos de tábua corrida ao seu ambiente."
+			],
+			"lines": [
+				"Carvalho Dover",
+				"Carvalho Hanover",
+				"Carvalho Munique",
+				"Carvalho Malta",
+				"Arenal",
+				"Miami"
+			]
+		},
+		{
+			"title": "Linha Durafloor Link",
+			"thickness": null,
+			"description": [
+				"Na linha Durafloor Link você encontra padrões contemporâneos que ajudam a criar ambientes sofisticados e acolhedores. Seus padrões madeirados criam uma sensação única de conforto e são ideais para ambientes residenciais."
+			],
+			"lines": [
+				"San Andres",
+				"Mancora",
+				"Bariloche",
+				"Córdoba",
+				"Buenos Aires",
+				"Nogueira Thar",
+				"Tauri-Ravena",
+				"Carvalho Memphis"
+			]
+		},
+		{
+			"title": "Linha Durafloor Unique",
+			"thickness": null,
+			"description": [
+				"Sua casa vai ficar mais bonita com a linha Unique. Perfeita para ambientes residenciais, essa linha de pisos Durafloor resgata os longos e nobres assoalhos de madeira e também é a prova de água."
+			],
+			"lines": [
+				"Toledo",
+				"Ferrara",
+				"Chamonix",
+				"Bruxelas",
+				"Lisboa",
+				"Sardenha"
+			]
+		},
+		{
+			"title": "Linha Durafloor New Way",
+			"thickness": null,
+			"description": [
+				"O Durafloor New Way vem com texturas leves e padrões jovens que trazem novos ares à sua casa. Solte a imaginação em uma incrível relação de custo e benefício."
+			],
+			"lines": [
+				"Álamo",
+				"Petrópolis",
+				"Nogueira Cadiz",
+				"Maceió",
+				"Itapuã",
+				"Milão",
+				"Carvalho York",
+				"Amêndola Curação",
+				"Carvalho Eterno",
+				"Carvalho Avelã"
+			]
+		},
+		{
+			"title": "Linha Durafloor Nature",
+			"thickness": null,
+			"description": [
+				"Sinta todo o poder da natureza com a linha Durafloor Nature. Sua textura com entalhes e aparência de madeira natural levam a sensação de relaxamento e equilíbrio para o piso."
+			],
+			"lines": [
+				"Belgrado",
+				"Cerezo Carmel",
+				"Savoy",
+				"Arizona",
+				"Freijó Puro",
+				"Punta Cana",
+				"Pucón",
+				"Jequitibá Rosa",
+				"Camaru Raiz"
+			]
+		}
+	],
+	"eucafloor": [
+		{
+			"title": "Linha Eucafloor Prime",
+			"thickness": null,
+			"description": [
+				"Bonito, prático e fácil de limpar. A opção ideal para residências.",
+				"A linha Prime é uma ótima solução para revestimento de ambientes residenciais de tráfego médio. Tem padrões inovadores e 7 mm de espessura, além de 12 anos de garantia."
+			],
+			"lines": [
+				"Valência",
+				"Noce Oro",
+				"Lâmina Amêndoa",
+				"Ipê Real",
+				"Nogueira Natural",
+				"Fresno Decapê",
+				"Carvalho",
+				"Carvalho Maiorca",
+				"Cappuccino",
+				"Cacau"
+			]
+		},
+		{
+			"title": "Linha Eucafloor Prime Click",
+			"thickness": null,
+			"description": [
+				"A linha mais competitiva do mercado, agora com encaixe click!",
+				"Ótima solução para revestimento de ambientes residenciais. Disponível em 5 padrões madeirados com 7 mm de espessura e 12 anos de garantia."
+			],
+			"lines": [
+				"Valência",
+				"Nogueira Natural",
+				"Fresno Decapê",
+				"Carvalho Maiorca",
+				"Cacau",
+				"Lâmina Amêndoa"
+			]
+		},
+		{
+			"title": "Linha Eucafloor Evidence",
+			"thickness": null,
+			"description": [
+				"A linha Evidence é perfeita para ambientes que exigem modernidade, praticidade e resistência.",
+				"É Ideal para ambientes residenciais e comerciais de baixo tráfego, a linha Eucafloor Evidence é constituída por exclusivas réguas com 21,7 cm de largura e possui 10 diferentes padrões."
+			],
+			"lines": [
+				"Nogueira Málaga",
+				"Kalahari",
+				"Italian Noce",
+				"Decapê",
+				"Carvalho Rústico",
+				"Carvalho Coimbra",
+				"Carvalho Canela",
+				"Cacau Marfim",
+				"Andorra",
+				"Lâmina Nogueira"
+			]
+		},
+		{
+			"title": "Linha Eucafloor New Elegance",
+			"thickness": null,
+			"description": [
+				"A linha New Elegance conta com 14 padrões e tem sete anos de garantia para uso comercial e 16 anos para uso residencial. Durabilidade e elegância em réguas largas de 292 mm é ideal para utilização em ambientes comerciais e residenciais.Sistema de instalação Click! Instalou, Pisou!"
+			],
+			"lines": [
+				"Mont Blanc New",
+				"Canyon Black Oak",
+				"Legno Crema",
+				"Sbiancato",
+				"Carvalho Sevilha",
+				"Carvalho Chamonix",
+				"Carvalho Cordoba",
+				"Toulouse Oak",
+				"Smart Oak",
+				"Classic Oak",
+				"Celtic Oak",
+				"Elmo Macciato",
+				"Freijó Ambar",
+				"Moka",
+				"Veneto"
+			]
+		},
+		{
+			"title": "Linha Eucafloor Gran Elegance",
+			"thickness": null,
+			"description": [
+				"Com tecnologia HPP, exclusivo da Eucatex, o piso laminado Eucafloor Gran Elegance oferece uma nova categoria ao mercado: uma régua com 44,5 cm de largura, o piso mais largo do segmento.",
+				"Seus elementos trazem a tendência vintage, seu sistema de encaixe Click deixa a instalação muito mais rápida e fácil. Sistema de instalação Click! Instalou, Pisou!"
+			],
+			"lines": [
+				"Carvalho Ouro",
+				"Concreto",
+				"London",
+				"Nova York",
+				"Stone",
+				"Belmonte",
+				"Botticino"
+			]
+		}
+	],
+	"quick-step": [
+		{
+			"title": "Linha Quick-Step Catedral",
+			"thickness": null,
+			"description": [
+				"Da imponência das catedrais, que tanto inspiraram os artistas mais renomados da história, surgiu também a inspiração para essa linha de desenhos bem marcados e cheios de personalidade que, combinados com a sutileza de suas cores, trazem uma beleza única a cada piso."
+			],
+			"lines": [
+				"Candelária",
+				"Sé",
+				"Saint-Patrick",
+				"Notre Dame"
+			]
+		},
+		{
+			"title": "Linha Quick-Step Classic",
+			"thickness": null,
+			"description": [
+				"A coleção Classic combina resistência à água com uma seleção equilibrada de cores e estilos para uma aparência moderna e natural."
+			],
+			"lines": [
+				"Carvalho Congelado Bege",
+				"Teca Marrom Médio",
+				"Carvalho Biscoito Marrom",
+				"Carvalho Neblina Cinza"
+			]
+		},
+		{
+			"title": "Linha Quick-Step Eligna Wide",
+			"thickness": null,
+			"description": [
+				"A gama Eligna Wide de tamanho médio adiciona uma dimensão extra à coleção Eligna. Estes pavimentos naturais possuem réguas de largura extra que fazem justiça aos padrões rústicos."
+			],
+			"lines": [
+				"Castanheiro Antigo Restaurado",
+				"Carvalho Acinzentado com Cortes de Serra",
+				"Carvalho Claro Serrado",
+				"Castanheiro Natural Restaurado",
+				"Carvalho Deserto Restaurado",
+				"Castanheiro Escuro Restaurado",
+				"Carvalho Café Restaurado",
+				"Carvalho Natural Serrado"
+			]
+		},
+		{
+			"title": "Linha Quick-Step Impressive",
+			"thickness": null,
+			"description": [
+				"Impressive é uma coleção de pisos laminados que se distingue pela aparência e a sensação excepcionalmente naturais. Esses pisos são totalmente resistentes à água."
+			],
+			"lines": [
+				"Carvalho Clássico Natural",
+				"Carvalho Natural Soft",
+				"Carvalho Suave Médio",
+				"Carvalho Cinza Suave",
+				"Concreto Amadeirado Cinza Claro",
+				"Carvalho Marrom Acinzentado",
+				"Carvalho Bege Serrado",
+				"Carvalho Marrom Clássico"
+			]
+		},
+		{
+			"title": "Linha Quick-Step Premiere",
+			"thickness": null,
+			"description": [
+				"A coleção Premiere combina resistência à água com uma seleção equilibrada de cores e estilos para uma aparência moderna."
+			],
+			"lines": [
+				"Essencial Oak",
+				"Malta",
+				"New Oak",
+				"Mocha",
+				"Carvalho Sacramento",
+				"New Pegasus",
+				"Ipê Ábano",
+				"Novara Allover"
+			]
+		},
+		{
+			"title": "Linha Quick-Step Smart",
+			"thickness": null,
+			"description": [
+				"Variações de tons - Podem ser notados tons diferentes no mesmo piso, o que traz ainda mais beleza e naturalidade ao produto."
+			],
+			"lines": [
+				"Carvalho Natural Havana com Marcas de Serra",
+				"Carvalho Vanilla",
+				"Carvalho Natural Envernizado",
+				"Carvalho Natural Midnight",
+				"Novo Carvalho Everest",
+				"Pátina Cottage",
+				"Miracosa Jersey",
+				"Carvalho Escuro Midnight"
+			]
+		},
+		{
+			"title": "Linha Quick-Step Vision",
+			"thickness": null,
+			"description": [
+				"Variações de tons - Podem ser notados tons diferentes no mesmo piso, o que traz ainda mais beleza e naturalidade ao produto."
+			],
+			"lines": [
+				"Carvalho Cubano",
+				"Carvalho Vitoriano",
+				"Cumaru Tefé",
+				"Carvalho Sereno",
+				"Carvalho Studio",
+				"Carvalho Andes",
+				"Carvalho Agreste",
+				"Carvalho Pastis"
+			]
+		}
+	]
 }
