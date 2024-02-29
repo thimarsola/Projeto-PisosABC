@@ -168,6 +168,25 @@
 				"Lírio",
 				"Alfazema"
 			]
+		},
+		{
+			"title": "Linha Tarkett Essence Tech",
+			"thickness": null,
+			"description": [
+				"A linha de pisos vinílicos Essence Tech da Tarkett reúne todas as qualidades que você espera encontrar em um piso vinílico: beleza, praticidade e designs modernos e atuais."
+			],
+			"lines": [
+				"Almeria",
+				"Astúrias",
+				"Ibiza",
+				"Cádiz",
+				"Benidorm",
+				"Alicante",
+				"Tenerife",
+				"Málaga",
+				"Maiorca",
+				"Valência"
+			]
 		}
 	],
 	"ospefloor": [

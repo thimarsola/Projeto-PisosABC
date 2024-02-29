@@ -201,19 +201,6 @@
 	],
 	"quick-step": [
 		{
-			"title": "Linha Quick-Step Catedral",
-			"thickness": null,
-			"description": [
-				"Da imponência das catedrais, que tanto inspiraram os artistas mais renomados da história, surgiu também a inspiração para essa linha de desenhos bem marcados e cheios de personalidade que, combinados com a sutileza de suas cores, trazem uma beleza única a cada piso."
-			],
-			"lines": [
-				"Candelária",
-				"Sé",
-				"Saint-Patrick",
-				"Notre Dame"
-			]
-		},
-		{
 			"title": "Linha Quick-Step Classic",
 			"thickness": null,
 			"description": [
